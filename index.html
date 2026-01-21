@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Pulpit Detektywa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loginScreen">
+  <pre id="biosText"></pre>
+  <div id="biosInputLine">
+    <span>&gt;</span>
+    <input id="loginInput" type="password" autocomplete="off">
+  </div>
+  <div id="loginError"></div>
+</div>
+
+
+
+<div id="desktop" hidden>
+  <div id="icons"></div>
+</div>
+
+
+  <script type="module" src="main.js"></script>
+  <div id="taskbar">
+    <button id="startBtn">
+      <img src="assets/icons/windows.png" style="height:16px;vertical-align:middle;margin-right:6px;">
+      Start
+    </button>
+  </div>
+
+  <div id="startMenu" hidden></div>
+<!--<script type="module" src="core/login.js"></script>-->
+
+
+</body>
+</html>

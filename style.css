@@ -1,0 +1,1001 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    font-size: 12px;
+    color: #000;
+    image-rendering: pixelated;
+}
+
+
+
+/*#desktop {
+    position: fixed;
+    inset: 0;
+    background: #008080;
+}
+*/
+
+.window {
+    background: #c0c0c0;
+    border: 2px solid;
+    border-color:
+            #ffffff
+            #404040
+            #404040
+            #ffffff;
+}
+.window-header {
+    background: linear-gradient(to right, #000080, #1084d0);
+    color: #fff;
+    padding: 2px 6px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.window-close {
+    width: 16px;
+    height: 16px;
+    background: #c0c0c0;
+    border: 2px solid;
+    border-color:
+            #ffffff
+            #404040
+            #404040
+            #ffffff;
+    font-size: 10px;
+    text-align: center;
+    line-height: 12px;
+    cursor: pointer;
+}
+.window-close:active {
+    border-color:
+            #404040
+            #ffffff
+            #ffffff
+            #404040;
+}
+
+.titlebar {
+    height: 22px;
+    background: linear-gradient(to right, #000080, #1084d0);
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6px;
+    cursor: move;
+}
+
+.titlebar .close {
+    background: #c0c0c0;
+    border: 1px outset #fff;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+.content {
+    background: white;
+    height: calc(100% - 22px);
+    padding: 8px;
+    font-size: 11px;
+    overflow: auto;
+}
+.mail-container {
+    display: flex;
+    height: 100%;
+}
+
+.mail-list {
+    width: 180px;
+    border-right: 1px solid #808080;
+    overflow-y: auto;
+    background: #f0f0f0;
+}
+
+.mail-item {
+    padding: 6px;
+    font-size: 11px;
+    cursor: pointer;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.mail-item.unread {
+    font-weight: bold;
+}
+
+.mail-item:hover {
+    background: #000080;
+    color: white;
+}
+
+.mail-view {
+    flex: 1;
+    padding: 8px;
+    font-size: 11px;
+    background: white;
+    overflow-y: auto;
+}
+.browser-header {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+.browser-content {
+    font-size: 11px;
+}
+
+.browser-content a {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.txt-viewer {
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+    white-space: pre-wrap;
+    color: black;
+}
+#taskbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 28px;
+    background: #c0c0c0;
+    border-top: 2px solid #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+
+#taskbar button.active {
+    font-weight: bold;
+}
+#startMenu {
+    position: fixed;
+    bottom: 28px;
+    left: 0;
+    width: 180px;
+    background: #c0c0c0;
+    border: 2px solid;
+    border-color:
+            #ffffff
+            #404040
+            #404040
+            #ffffff;
+}
+
+
+#startMenu li {
+    padding: 4px 6px;
+    cursor: default;
+}
+
+#startMenu li:hover {
+    background: #000080;
+    color: #fff;
+}
+
+
+#startMenu li:hover {
+    background: #ccc;
+}
+
+#startBtn {
+    margin: 2px;
+    padding: 2px 8px;
+    background: #c0c0c0;
+    border: 2px solid;
+    border-color:
+            #ffffff
+            #404040
+            #404040
+            #ffffff;
+    font-weight: bold;
+}
+#startBtn:active {
+    border-color:
+            #404040
+            #ffffff
+            #ffffff
+            #404040;
+}
+
+
+.image-viewer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+}
+
+.image-viewer img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+#loginScreen {
+    position: fixed;
+    inset: 0;
+    background: #000;
+    color: #00ff00;
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    padding: 20px;
+}
+
+#biosText {
+    white-space: pre-line;
+}
+
+#biosInputLine {
+    display: flex;
+    margin-top: 10px;
+}
+
+#biosInputLine input {
+    background: transparent;
+    border: none;
+    color: #00ff00;
+    font-family: inherit;
+    outline: none;
+    margin-left: 5px;
+}
+
+#loginError {
+    color: red;
+    margin-top: 10px;
+}
+
+
+/*#icons {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 72px);
+    grid-auto-rows: 88px;
+    padding: 10px;
+}
+*/
+/*.icon {
+    text-align: center;
+    cursor: default;
+    user-select: none;
+}
+*/
+.icon img {
+    width: 32px;
+    height: 32px;
+}
+
+.icon span {
+    display: block;
+    margin-top: 4px;
+    color: #fff;
+    text-shadow: 1px 1px 0 #000;
+    line-height: 1.1;
+}
+
+/* =========================
+   DESKTOP & ICONS - UPROSZCZONY
+========================= */
+
+#desktop {
+    position: fixed;
+    inset: 0;
+    bottom: 28px; /* Miejsce na taskbar */
+    background: #008080;
+    overflow: hidden;
+}
+
+#icons {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, 88px);
+    grid-auto-columns: 72px;
+    grid-auto-flow: column;
+    gap: 8px;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    align-content: start;
+}
+
+/* =========================
+   POJEDYNCZA IKONA
+========================= */
+
+.icon {
+    width: 72px;
+    height: 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: default;
+    user-select: none;
+    padding: 4px;
+    border: 1px solid transparent;
+    transition: background 0.1s;
+}
+
+.icon:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Zaznaczona ikona */
+.icon.selected {
+    background: rgba(0, 0, 128, 0.3);
+    border: 1px dotted #fff;
+}
+
+.icon.selected .icon-label {
+    background: #000080;
+    color: #fff;
+}
+
+/* =========================
+   GRAFIKA IKONY
+========================= */
+
+.icon-image {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Dla SVG */
+.icon-image svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    image-rendering: pixelated;
+}
+
+/* Dla PNG (gdy użyjesz własnych ikon) */
+.icon-image img {
+    display: block;
+    width: 32px;
+    height: 32px;
+    image-rendering: pixelated;
+}
+
+/* =========================
+   ETYKIETA IKONY
+========================= */
+
+.icon-label {
+    font-size: 11px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 2px #000;
+    line-height: 1.2;
+    word-wrap: break-word;
+    max-width: 100%;
+    padding: 1px 3px;
+    border-radius: 2px;
+}
+
+/* =========================
+   RESPONSIVE (opcjonalnie)
+========================= */
+
+@media (max-width: 768px) {
+    #icons {
+        grid-template-columns: repeat(auto-fill, 64px);
+        grid-auto-rows: 80px;
+        gap: 4px;
+    }
+
+    .icon {
+        width: 64px;
+        height: 80px;
+    }
+
+    .icon-label {
+        font-size: 10px;
+    }
+}
+
+/* =========================
+   ANIMACJE (opcjonalnie)
+========================= */
+
+@keyframes iconAppear {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.icon {
+    animation: iconAppear 0.2s ease-out;
+}
+
+/* Delay dla każdej ikony */
+.icon:nth-child(1) { animation-delay: 0s; }
+.icon:nth-child(2) { animation-delay: 0.05s; }
+.icon:nth-child(3) { animation-delay: 0.1s; }
+.icon:nth-child(4) { animation-delay: 0.15s; }
+.icon:nth-child(5) { animation-delay: 0.2s; }
+.icon:nth-child(6) { animation-delay: 0.25s; }
+.icon:nth-child(7) { animation-delay: 0.3s; }
+.icon:nth-child(8) { animation-delay: 0.35s; }
+.icon:nth-child(9) { animation-delay: 0.4s; }
+.icon:nth-child(10) { animation-delay: 0.45s; }
+
+
+.snake-ui {
+    padding: 6px;
+    background: #c0c0c0;
+}
+
+.snake-score {
+    background: #000080;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 2px 6px;
+    margin-bottom: 4px;
+}
+
+/* =========================
+   WŁAŚCIWOŚCI KOMPUTERA - WIN98 SZARE TŁO
+========================= */
+
+.computer-properties {
+    background: #c0c0c0;  /* SZARE TŁO WIN98 */
+    padding: 12px;
+    font-size: 11px;
+    font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+    color: #000;
+    height: 100%;
+    overflow-y: auto;
+}
+
+/* HEADER Z IKONĄ I NAZWĄ SYSTEMU */
+.computer-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.computer-icon {
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    line-height: 1;
+}
+
+.computer-info {
+    flex: 1;
+}
+
+.computer-title {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    color: #000;
+}
+
+.computer-subtitle {
+    font-size: 11px;
+    color: #000;
+}
+
+/* SEPARATOR (LINIA ODDZIELAJĄCA) */
+.win98-separator {
+    height: 2px;
+    margin: 8px 0;
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #ffffff;
+}
+
+/* SEKCJE */
+.computer-section {
+    margin-bottom: 8px;
+}
+
+.section-label {
+    font-size: 11px;
+    font-weight: normal;
+    margin-bottom: 4px;
+    color: #000;
+}
+
+.section-value {
+    font-size: 11px;
+    color: #000;
+    padding-left: 8px;
+}
+
+.section-value-group {
+    padding-left: 8px;
+}
+
+.value-row {
+    font-size: 11px;
+    color: #000;
+    line-height: 1.6;
+}
+
+/* SEKCJA Z IKONĄ (procesor, dysk) */
+.section-row {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.section-icon {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    line-height: 1;
+}
+
+.section-details {
+    flex: 1;
+}
+
+.detail-line {
+    font-size: 11px;
+    color: #000;
+    line-height: 1.6;
+    margin-bottom: 2px;
+}
+
+.detail-line b {
+    font-weight: bold;
+}
+
+/* FOOTER */
+.computer-footer {
+    margin-top: 12px;
+    padding-top: 8px;
+    border-top: 1px solid #808080;
+    text-align: center;
+    font-size: 10px;
+    color: #000;
+}
+
+/* SCROLLBAR (dla długiej zawartości) */
+.computer-properties::-webkit-scrollbar {
+    width: 16px;
+    background: #c0c0c0;
+}
+
+.computer-properties::-webkit-scrollbar-track {
+    background: #c0c0c0;
+}
+
+.computer-properties::-webkit-scrollbar-thumb {
+    background: #808080;
+    border: 2px solid;
+    border-color: #ffffff #404040 #404040 #ffffff;
+}
+
+.computer-properties::-webkit-scrollbar-thumb:hover {
+    background: #606060;
+}
+
+.computer-properties::-webkit-scrollbar-button {
+    background: #c0c0c0;
+    border: 2px solid;
+    border-color: #ffffff #404040 #404040 #ffffff;
+    height: 16px;
+}
+
+.computer-properties::-webkit-scrollbar-button:hover {
+    background: #d4d0c8;
+}
+
+/* STYLE DLA CONTENT W OKNIE */
+.window .content {
+    padding: 0 !important;  /* Usuń padding żeby szare tło było wszędzie */
+}
+
+/* =========================
+   PRZEGLĄDARKA - STYL ROK 2000
+========================= */
+
+.browser-page {
+    background: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+}
+
+.browser-page table {
+    border-collapse: collapse;
+}
+
+.browser-page a {
+    color: #0000FF;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.browser-page a:hover {
+    color: #FF0000;
+}
+
+.browser-page a:visited {
+    color: #800080;
+}
+
+.browser-page h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #000080;
+}
+
+.browser-page h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 8px 0;
+    color: #000080;
+}
+
+.browser-page h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 6px 0;
+    color: #000080;
+}
+
+.browser-page p {
+    margin: 6px 0;
+    line-height: 1.4;
+}
+
+.browser-page hr {
+    border: none;
+    border-top: 1px solid #808080;
+    margin: 8px 0;
+}
+
+/* Tabele */
+.browser-page table[border="1"] {
+    border: 1px solid #808080;
+}
+
+.browser-page td {
+    padding: 4px;
+}
+
+/* Formularze */
+.browser-page input[type="text"] {
+    border: 1px solid #808080;
+    padding: 2px 4px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+.browser-page input[type="button"] {
+    background: #C0C0C0;
+    border: 2px solid;
+    border-color: #FFFFFF #404040 #404040 #FFFFFF;
+    padding: 2px 12px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.browser-page input[type="button"]:active {
+    border-color: #404040 #FFFFFF #FFFFFF #404040;
+}
+
+/* Font tags (staroświeckie HTML) */
+.browser-page font {
+    font-family: inherit;
+}
+
+/* Center tag */
+.browser-page center {
+    text-align: center;
+}
+
+/* Obrazy */
+.browser-page img {
+    border: 0;
+    image-rendering: pixelated;
+}
+
+/* Migający tekst (easter egg) */
+@keyframes blink {
+    0%, 49% { opacity: 1; }
+    50%, 100% { opacity: 0; }
+}
+
+.browser-page blink {
+    animation: blink 1s infinite;
+}
+
+/* Scrollbar w stylu IE */
+.browser-page::-webkit-scrollbar {
+    width: 16px;
+}
+
+.browser-page::-webkit-scrollbar-track {
+    background: #D4D0C8;
+}
+
+.browser-page::-webkit-scrollbar-thumb {
+    background: #808080;
+    border: 2px solid #D4D0C8;
+}
+
+/* Marquee (ruchomy tekst - nie używamy ale możesz) */
+.browser-page marquee {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* Stare przyciski submit */
+.browser-page input[type="submit"] {
+    background: #C0C0C0;
+    border: 2px outset #FFFFFF;
+    padding: 3px 12px;
+    cursor: pointer;
+}
+
+.mail-image {
+    margin-top: 10px;
+}
+
+.mail-image img {
+    max-width: 100%;
+    border: 1px solid #999;
+}
+/* =========================
+   TASKBAR (Windows 98)
+========================= */
+
+#taskbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    height: 32px;
+    background: #c0c0c0;
+
+    display: flex;
+    align-items: center;
+
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #404040;
+    border-right: 2px solid #404040;
+
+    padding: 2px;
+    box-sizing: border-box;
+
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    font-size: 13px;
+}
+#startBtn {
+    height: 26px;
+    min-width: 80px;
+
+    background: #008080; /* klasyczna zieleń Start */
+    color: black;
+
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #404040;
+    border-right: 2px solid #404040;
+
+    font-weight: bold;
+    padding: 0 8px;
+
+    cursor: pointer;
+}
+
+#startBtn:active {
+    border-top: 2px solid #404040;
+    border-left: 2px solid #404040;
+    border-bottom: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+}
+/* =========================
+   START MENU (Windows 98)
+========================= */
+
+#startMenu {
+    position: fixed;
+    bottom: 32px; /* dokładnie wysokość taskbara */
+    left: 0;
+
+    width: 220px;
+    background: #c0c0c0;
+
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #404040;
+    border-right: 2px solid #404040;
+
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    font-size: 13px;
+
+    z-index: 1000;
+}
+.start-sidebar {
+    width: 28px;
+    background: #808080;
+    color: white;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    padding-bottom: 8px;
+    box-sizing: border-box;
+}
+
+.start-sidebar span {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.start-items {
+    padding: 4px;
+    background: #c0c0c0;
+}
+
+.start-item {
+    display: flex;
+    align-items: center;
+
+    padding: 4px 6px;
+    cursor: pointer;
+}
+
+.start-item:hover {
+    background: #000080;
+    color: white;
+}
+
+.start-item img {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+#startMenu {
+    position: fixed;
+    bottom: 32px;
+    left: 0;
+    background: #c0c0c0;
+    border: 2px solid;
+    border-color: #fff #404040 #404040 #fff;
+    font-family: Tahoma, Arial;
+}
+
+.start-menu-inner {
+    display: flex;
+}
+
+.start-sidebar {
+    width: 28px;
+    background: #808080;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 8px;
+}
+
+.start-sidebar span {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-weight: bold;
+}
+
+.start-items {
+    padding: 4px;
+    min-width: 180px;
+}
+
+.start-item {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.start-item:hover {
+    background: #000080;
+    color: white;
+}
+
+.start-item img {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+
+#loginScreen ~ #taskbar {
+    display: none;
+}
+
+.mail-text pre {
+    line-height: 1.5;
+}
+
+/* Stylizacja cytowanych linii */
+.mail-text pre > * {
+    display: block;
+}
+
+/* Styl dla głównego kontenera tekstu */
+.mail-body-content {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #222;
+    padding: 10px 0;
+}
+
+/* Styl dla cytowanych linii */
+.mail-quote {
+    border-left: 3px solid #ccc;
+    margin: 2px 0;
+    padding-left: 10px;
+    color: #666;
+    font-style: italic;
+    display: block; /* Ważne, żeby zachowywało się jak linia */
+}
+
+/* Zapewnienie odstępów dla divów wewnątrz maila */
+.mail-body-content div {
+    min-height: 1em;
+}
+
+.run-dialog {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #c0c0c0;
+    border: 2px solid #000;
+    padding: 10px;
+    z-index: 9999;
+}
+.puzzle-card.locked {
+    background: rgba(0, 0, 0, 0.4);
+    border-style: dashed;
+    pointer-events: none; /* Gracz nie może nawet kliknąć w zablokowaną kartę */
+}
+
+.window {
+    box-sizing: border-box;
+}
+
+.resize-handle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 14px;
+    height: 14px;
+    cursor: nwse-resize;
+    background: transparent;
+}

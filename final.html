@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>///</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Courier New', monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Delikatny glitch ekranu */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: 
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(255,255,255,.02) 2px,
+      rgba(255,255,255,.02) 4px
+    );
+  pointer-events: none;
+  animation: flicker 0.15s infinite;
+  z-index: 1;
+}
+
+@keyframes flicker {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.96; }
+}
+
+/* Migający ekran (rzadko) */
+@keyframes screenFlash {
+  0%, 90%, 100% { opacity: 1; }
+  92%, 94%, 96% { opacity: 0.8; }
+}
+
+body {
+  animation: screenFlash 8s infinite;
+}
+
+/* Container */
+.container {
+  text-align: center;
+  z-index: 2;
+  position: relative;
+}
+
+/* Współrzędne */
+.coordinates {
+  font-size: 3rem;
+  letter-spacing: 8px;
+  margin-bottom: 60px;
+  position: relative;
+  animation: coordGlitch 3s infinite;
+}
+
+@keyframes coordGlitch {
+  0%, 98%, 100% {
+    transform: translate(0);
+    filter: blur(0);
+  }
+  99% {
+    transform: translate(-2px, 1px);
+    filter: blur(0.5px);
+  }
+}
+
+.coord-line {
+  display: block;
+  margin: 10px 0;
+  opacity: 0;
+  animation: fadeInCoord 1s forwards;
+}
+
+.coord-line:nth-child(1) {
+  animation-delay: 0.5s;
+}
+
+.coord-line:nth-child(2) {
+  animation-delay: 1s;
+}
+
+@keyframes fadeInCoord {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Timer */
+.timer {
+  font-size: 5rem;
+  letter-spacing: 15px;
+  font-weight: bold;
+  opacity: 0;
+  animation: fadeInTimer 1.5s 2s forwards;
+  position: relative;
+}
+
+@keyframes fadeInTimer {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Delikatny glitch na cyfrach */
+.timer::before {
+  content: attr(data-time);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.timer.glitch::before {
+  animation: digitGlitch 0.1s;
+}
+
+@keyframes digitGlitch {
+  0%, 100% {
+    opacity: 0;
+    transform: translate(0);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translate(-2px, 0);
+    color: #f00;
+  }
+}
+
+/* Timer labels */
+.timer-labels {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 20px;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  opacity: 0.5;
+  text-transform: uppercase;
+}
+
+/* Subtelny czerwony akcent gdy mało czasu */
+.timer.critical {
+  color: #ff3333;
+  text-shadow: 0 0 20px rgba(255, 51, 51, 0.5);
+}
+
+/* Migający kursor na końcu */
+.cursor {
+  display: inline-block;
+  width: 3px;
+  height: 1em;
+  background: #fff;
+  margin-left: 10px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .coordinates {
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+  }
+  
+  .timer {
+    font-size: 3rem;
+    letter-spacing: 8px;
+  }
+  
+  .timer-labels {
+    gap: 40px;
+    font-size: 0.6rem;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="coordinates">
+    <span class="coord-line">59.4386°N</span>
+    <span class="coord-line">24.7457°E</span>
+  </div>
+  
+  <div class="timer" id="timer" data-time="">00:00:00:00</div>
+  
+  <div class="timer-labels">
+    <span>DNI</span>
+    <span>GODZINY</span>
+    <span>MINUTY</span>
+    <span>SEKUNDY</span>
+  </div>
+</div>
+
+<script>
+const targetDate = new Date('2026-04-15T19:05:00').getTime();
+const timerEl = document.getElementById('timer');
+let lastSecond = -1;
+
+function updateTimer() {
+  const now = new Date().getTime();
+  const distance = targetDate - now;
+  
+  if (distance < 0) {
+    timerEl.textContent = '00:00:00:00';
+    timerEl.classList.add('critical');
+    return;
+  }
+  
+  const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+  const timeString = 
+    String(days).padStart(2, '0') + ':' +
+    String(hours).padStart(2, '0') + ':' +
+    String(minutes).padStart(2, '0') + ':' +
+    String(seconds).padStart(2, '0');
+  
+  timerEl.textContent = timeString;
+  timerEl.setAttribute('data-time', timeString);
+  
+  // Delikatny glitch co sekundę
+  if (seconds !== lastSecond) {
+    timerEl.classList.add('glitch');
+    setTimeout(() => timerEl.classList.remove('glitch'), 100);
+    lastSecond = seconds;
+  }
+  
+  // Czerwony gdy < 24h
+  if (days === 0 && hours < 24) {
+    timerEl.classList.add('critical');
+  }
+}
+
+updateTimer();
+setInterval(updateTimer, 1000);
+</script>
+
+</body>
+</html>

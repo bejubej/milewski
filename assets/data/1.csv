@@ -1,0 +1,743 @@
+stop_id,stop_name,lat,lon,dist_from_lodz_km,reason,confidence
+251561,Łódź Dąbrowa,51.735893,19.510457,4.5,name contains dąb,high
+1300047,Wiśniowa Góra Jednostka Wojskowa kier. Brzeziny,51.711308,19.62632917,12.82,name contains brzez,high
+1300048,Wiśniowa Góra Tuszyńska/Piekarnicza kier. Brzeziny,51.71580092,19.62937803,12.82,name contains brzez,high
+1300046,Wiśniowa Góra Tuszyńska/Akacjowa kier. Brzeziny,51.70632327,19.62267344,12.84,name contains brzez,high
+1300049,Wiśniowa Góra Szkoła kier. Brzeziny,51.72105781,19.63293452,12.84,name contains brzez,high
+1300045,Stróża Kolumny kier. Brzeziny,51.70274117,19.62001795,12.87,name contains brzez,high
+1300036,Stróża Gajowa kier. Wola Rakowa,51.69663766,19.61463731,12.9,name contains gaj,high
+1300044,Stróża Gajowa kier. Brzeziny,51.69624799,19.61447634,12.91,"name contains gaj, brzez",high
+1300043,Stróża Ludwików kier. Brzeziny,51.69180647,19.61046476,12.96,name contains brzez,high
+1300050,Andrespol Brzezińska/Rokicińska kier. Brzeziny,51.72576854,19.63931333,13.09,name contains brzez,high
+1200019,Andrespol Brzezińska/Rokicińska kier. Bedoń,51.72583553,19.6394076,13.1,name contains brzez,high
+1200027,Andrespol Brzezińska/Rokicińska kier. Wola Rakowa,51.72477839,19.63962671,13.15,name contains brzez,high
+1200021,Bedoń Ogrodowa/Brzezińska kier. Kościół,51.73677558,19.64552471,13.22,name contains brzez,high
+1200025,Bedoń Ogrodowa/Brzezińska kier. Wola Rakowa,51.73670001,19.64560652,13.22,name contains brzez,high
+1200026,Bedoń Brzezińska/Sienkiewicza kier. Wola Rakowa,51.73293768,19.6444505,13.23,name contains brzez,high
+1300015,Bedoń Brzezińska/Sienkiewicza kier. Wola Rakowa,51.73288499,19.64445236,13.23,name contains brzez,high
+1200020,Bedoń Brzezińska/Sienkiewicza kier. Kościół,51.73396049,19.64510105,13.25,name contains brzez,high
+1300017,Bedoń Brzezińska/Sienkiewicza kier. Brzeziny,51.73396492,19.64507625,13.25,name contains brzez,high
+1300038,Wola Rakowa Brzezińska/Krańcowa kier. Wola Rakowa,51.68585902,19.61122282,13.4,name contains brzez,high
+1300042,Wola Rakowa Brzezińska/Krańcowa kier. Brzeziny,51.68589602,19.61146556,13.41,name contains brzez,high
+1300014,Bedoń Brzezińska/Słowiańska kier. Wola Rakowa,51.73784784,19.64922107,13.45,name contains brzez,high
+1300018,Bedoń Brzezińska/Słowiańska kier. Brzeziny,51.73806792,19.64955098,13.46,name contains brzez,high
+1300041,Wola Rakowa Cmentarz kier. Brzeziny,51.67451417,19.60738775,14.0,name contains brzez,high
+1300019,Jordanów Ignaców kier. Brzeziny,51.74727497,19.66118807,14.12,name contains brzez,high
+1300020,Jordanów 43 kier. Brzeziny,51.7526179,19.66799029,14.54,name contains brzez,high
+1300021,Jordanów OSP kier. Brzeziny,51.75777844,19.67518954,15.02,name contains brzez,high
+1300022,Adamów kier. Brzeziny,51.77142299,19.69052976,16.13,name contains brzez,high
+11100003,Rydzynki Tęczowa/Borowikowa kier. Będków,51.6138937,19.47375985,16.2,name contains bor,high
+11100048,Rydzynki Tęczowa/Borowikowa kier. Wczasowa,51.61394284,19.47357075,16.2,name contains bor,high
+1300023,Małczew Kapliczka kier. Brzeziny,51.77496791,19.69504674,16.47,name contains brzez,high
+11100043,Tuszyn Poddębina/Brzozowa kier. Rydzynki,51.61129262,19.50044363,16.72,name contains brzoz,high
+11100008,Tuszyn Poddębina/Brzozowa kier. Będków,51.61125598,19.50063675,16.73,name contains brzoz,high
+1300024,Małczew Świetlica kier. Brzeziny,51.77824644,19.70400008,17.13,name contains brzez,high
+1200045,Wardzyn Sosnowa Aleja kier. Bedoń,51.64918708,19.64169507,17.66,name contains sosn,high
+1200050,Wardzyn Sosnowa Aleja kier. Wola Rakowa,51.64918708,19.64169507,17.66,name contains sosn,high
+1300025,Małczew 8 kier. Brzeziny,51.78247738,19.7121659,17.75,name contains brzez,high
+1300026,Brzeziny Małczewska/Leśna kier. Głowackiego,51.78622163,19.71946324,18.31,"name contains leś, brzez",high
+1300006,Brzeziny Małczewska/Leśna kier. Wola Rakowa,51.787273,19.72137443,18.46,"name contains leś, brzez",high
+11000033,Gałków Mały Brzezińska/Łódzka kier. Gałkówek Dworz,51.72500989,19.72201304,18.64,name contains brzez,high
+11000037,Gałków Mały Brzezińska/Łódzka kier. Łaznów,51.72501011,19.72195079,18.64,name contains brzez,high
+11000022,Borowa pos. 3 kier. Łaznów,51.682584,19.706556,19.19,name contains bor,high
+11000009,Borowa pos. 3 kier. Gałkówek Dworzec PKP,51.682584,19.706694,19.2,name contains bor,high
+11000010,Borowa Długa/Nowa kier. Gałkówek Dworzec PKP,51.686639,19.710806,19.26,name contains bor,high
+11000021,Borowa Długa/Nowa kier. Łaznów,51.686639,19.710806,19.26,name contains bor,high
+11000016,Gałków Mały Borowiecka/Sporna kier. Łaznów,51.722861,19.730806,19.28,name contains bor,high
+11000020,Borowa Długa/Zielonogórska kier. Łaznów,51.691666,19.715861,19.35,name contains bor,high
+11000011,Borowa Długa/Zielonogórska kier. Gałkówek Dworzec PKP,51.691639,19.716,19.36,name contains bor,high
+1300027,Brzeziny Małczewska 28 kier. Głowackiego,51.79348027,19.73369585,19.41,name contains brzez,high
+1300005,Brzeziny Małczewska 28 kier. Wola Rakowa,51.79399516,19.7348076,19.5,name contains brzez,high
+11000019,Borowa Długa/Jarosława kier. Łaznów,51.699889,19.724334,19.56,name contains bor,high
+11000012,Borowa Długa/Jarosława kier. Gałkówek Dworzec PKP,51.699889,19.724445,19.57,name contains bor,high
+11000018,Borowa OSP kier. Łaznów,51.706694,19.731306,19.77,name contains bor,high
+11000013,Borowa OSP kier. Gałkówek Dworzec PKP,51.706667,19.731389,19.78,name contains bor,high
+11000014,Borowa Długa/Leśna kier. Gałkówek Dworzec PKP,51.710889,19.73575,19.93,"name contains leś, bor",high
+11000017,Borowa Długa/Leśna kier. Łaznów,51.710889,19.735611,19.93,"name contains leś, bor",high
+1300004,Brzeziny Muzeum Regionalne kier. Wola Rakowa,51.79927862,19.74355337,20.21,name contains brzez,high
+1300028,Brzeziny Fredry kier. Głowackiego,51.79717343,19.74482154,20.25,name contains brzez,high
+1300029,Brzeziny św. Anny kier. Głowackiego,51.79754514,19.75220797,20.75,name contains brzez,high
+1300003,Brzeziny Traugutta kier. Wola Rakowa,51.80092968,19.75265881,20.86,name contains brzez,high
+1300002,Brzeziny Szpital kier. Wola Rakowa,51.80550995,19.75544708,21.16,name contains brzez,high
+1300001,Brzeziny Głowackiego,51.80389429,19.76220049,21.57,name contains brzez,high
+1300030,Brzeziny Sienkiewicza kier. Głowackiego,51.80006955,19.76474314,21.65,name contains brzez,high
+1500013,Koluszki Brzezińska Rondo kier. Będzelin,51.74875,19.799555,23.61,name contains brzez,high
+1500022,Koluszki Brzezińska Rondo kier. Budziszewice,51.749941,19.801439,23.73,name contains brzez,high
+1500012,Koluszki Brzezińska/Żeromskiego kier. Będzelin,51.748155,19.807375,24.15,name contains brzez,high
+1500023,Koluszki Brzezińska/Żeromskiego kier. Budziszewice,51.747802,19.808108,24.2,name contains brzez,high
+11000005,Rokiciny Brzezińska kier. Gałkówek Dworzec PKP,51.666167,19.775028,24.23,name contains brzez,high
+11000026,Rokiciny Brzezińska kier. Łaznów,51.666194,19.777223,24.37,name contains brzez,high
+1600061,Gajówka kier. Ozorków PKP,51.88680065,19.14773433,25.55,name contains gaj,high
+1600072,Gajówka kier. Dalików,51.88689697,19.14744798,25.58,name contains gaj,high
+47449,Wolbórka,51.593151,19.723394,26.05,name contains bór,high
+11100024,Wolbórka PKP kier. Będków,51.59221507,19.72380894,26.14,name contains bór,high
+11100027,Wolbórka PKP kier. Rydzynki,51.59227254,19.72382968,26.14,name contains bór,high
+1600060,Gajówka - Parcel kier. Ozorków PKP,51.88590509,19.13357235,26.31,name contains gaj,high
+1600073,Gajówka - Parcel kier. Dalików,51.88594896,19.13354956,26.32,name contains gaj,high
+1500005,Regny Leśniczówka kier. Będzelin,51.704325,19.882414,29.93,name contains leś,high
+1500030,Regny Leśniczówka kier. Budziszewice,51.703764,19.882864,29.97,name contains leś,high
+46656,Borszewice,51.609768,19.03549,33.48,name contains bor,high
+1100030,Zelów Plac Dąbrowskiego kier. Łask,51.464606,19.219203,36.65,name contains dąb,high
+1100025,Zelów Plac Dąbrowskiego kier. Szczerców,51.464475,19.219125,36.66,name contains dąb,high
+1800008,Białynin Podbór kier. Rogów PKP,51.798972,20.025528,39.36,name contains bór,high
+1800023,Białynin Podbór kier. Rawa Maz.,51.7975,20.028445,39.54,name contains bór,high
+47381,Dąbrowice Skierniewickie,51.933401,20.103274,48.43,name contains dąb,high
+49064,Podbór,51.360461,20.875478,107.62,name contains bór,high
+2800029,Brzask - przystanek autobusowy Bugaj (droga 42/ 01 i 02),51.09784499,20.80207665,118.76,name contains gaj,high
+2800025,Brzask - przystanek autobusowy Bugaj (droga 42/ 01 i 02),51.09758175,20.8026183,118.81,name contains gaj,high
+47258,Koluszki,51.74526,19.819521,25.0,"rural, 25.0 km from Łódź",medium
+1600012,Ozorków Konstytucji 3 Maja / Nowe Miasto kier. Ozorków PKP,51.958431,19.287666,25.02,"rural, 25.0 km from Łódź",medium
+1600029,Ozorków Konstytucji 3 Maja / Nowe Miasto kier. Leźnica Wlk (Osiedle),51.958853,19.28543,25.13,"rural, 25.1 km from Łódź",medium
+1600006,Ozorków Zachodnia kier. Ozorków PKP,51.956417,19.275653,25.21,"rural, 25.2 km from Łódź",medium
+1600035,Ozorków Zachodnia kier. Leźnica Wlk (Osiedle),51.956589,19.275742,25.23,"rural, 25.2 km from Łódź",medium
+1600062,Bardzynin kier. Ozorków PKP,51.89315784,19.16057645,25.23,"rural, 25.2 km from Łódź",medium
+1500010,Koluszki 11 Listopada kier. Będzelin,51.739314,19.822253,25.24,"rural, 25.2 km from Łódź",medium
+1500025,Koluszki 11 Listopada kier. Budziszewice,51.739314,19.822253,25.24,"rural, 25.2 km from Łódź",medium
+1600071,Bardzynin kier. Dalików,51.8930904,19.16037694,25.24,"rural, 25.2 km from Łódź",medium
+1600027,Ozorków Starzyńskiego kier. Leźnica Wlk (Osiedle),51.961597,19.290136,25.25,"rural, 25.3 km from Łódź",medium
+1600011,Ozorków Konstytucji 3 Maja 37 kier. Ozorków PKP,51.958806,19.280761,25.28,"rural, 25.3 km from Łódź",medium
+1600030,Ozorków Konstytucji 3 Maja 37 kier. Leźnica Wlk (Osiedle),51.958806,19.280761,25.28,"rural, 25.3 km from Łódź",medium
+1600014,Ozorków Starzyńskiego kier. Ozorków PKP,51.962156,19.290627,25.29,"rural, 25.3 km from Łódź",medium
+1500034,Będzelin OSP,51.706667,19.815417,25.37,"rural, 25.4 km from Łódź",medium
+1600063,Huta Bardzyńska kier. Ozorków PKP,51.90096455,19.1672983,25.39,"rural, 25.4 km from Łódź",medium
+1600070,Huta Bardzyńska kier. Dalików,51.9009548,19.16715852,25.4,"rural, 25.4 km from Łódź",medium
+1600041,Ozorków Konstytucji 3 Maja / PKP kier. Ozorków PKP,51.958036,19.268842,25.6,"rural, 25.6 km from Łódź",medium
+1600043,Ozorków Konstytucji 3 Maja / PKP kier. Parzęczew,51.958083,19.268306,25.63,"rural, 25.6 km from Łódź",medium
+251557,Ozorków Nowe Miasto,51.958831,19.269708,25.65,"rural, 25.7 km from Łódź",medium
+1500026,Koluszki Partyzantów kier. Budziszewice,51.730528,19.826778,25.66,"rural, 25.7 km from Łódź",medium
+1600064,Symonia kier. Ozorków PKP,51.91165845,19.17649255,25.66,"rural, 25.7 km from Łódź",medium
+1600069,Symonia kier. Dalików,51.91188468,19.17661842,25.67,"rural, 25.7 km from Łódź",medium
+1500009,Koluszki Partyzantów kier. Będzelin,51.73025,19.82725,25.69,"rural, 25.7 km from Łódź",medium
+1600038,Wytrzyszczki 5 kier. Leźnica Wlk (Osiedle),51.946227,19.235464,25.76,"rural, 25.8 km from Łódź",medium
+1600004,Wytrzyszczki 20 kier. Ozorków PKP,51.949733,19.242719,25.79,"rural, 25.8 km from Łódź",medium
+1600037,Wytrzyszczki 20 kier. Leźnica Wlk (Osiedle),51.950597,19.244089,25.82,"rural, 25.8 km from Łódź",medium
+1600003,Wytrzyszczki 5 kier. Ozorków PKP,51.9462,19.233189,25.85,"rural, 25.9 km from Łódź",medium
+1600005,Ozorków Konstytucji Makowa kier. Ozorków PKP,51.957939,19.259914,25.91,"rural, 25.9 km from Łódź",medium
+1600017,Ozorków Wigury kier. Ozorków PKP,51.967222,19.285472,25.95,"rural, 26.0 km from Łódź",medium
+1600024,Ozorków Wigury kier. Leźnica Wlk (Osiedle),51.967194,19.285306,25.95,"rural, 26.0 km from Łódź",medium
+1600036,Ozorków Konstytucji Makowa kier. Leźnica Wlk (Osiedle),51.957872,19.258711,25.95,"rural, 25.9 km from Łódź",medium
+1700022,Rokiciny pos. 73 kier. Dworzec PKP,51.666444,19.806778,26.21,"rural, 26.2 km from Łódź",medium
+47506,Słotwiny,51.725198,19.834045,26.23,"rural, 26.2 km from Łódź",medium
+1600018,Ozorków Stypułkowskiego kier. Ozorków PKP,51.968903,19.282067,26.23,"rural, 26.2 km from Łódź",medium
+1600023,Ozorków Stypułkowskiego kier. Leźnica Wlk (Osiedle,51.968914,19.281898,26.23,"rural, 26.2 km from Łódź",medium
+1700020,Rokiciny pos. 73 kier. Łaznów,51.665139,19.80625,26.24,"rural, 26.2 km from Łódź",medium
+1600002,Piaskowice Stacja Paliw kier. Ozorków PKP,51.946858,19.223634,26.31,"rural, 26.3 km from Łódź",medium
+1600039,Piaskowice Stacja Paliw kier. Leźnica Wlk (Osiedle),51.946911,19.223428,26.32,"rural, 26.3 km from Łódź",medium
+1700009,Zacharz Północna kier. Rokiciny,51.607611,19.750056,26.32,"rural, 26.3 km from Łódź",medium
+1700006,Zacharz Północna kier. Będków,51.607083,19.749833,26.34,"rural, 26.3 km from Łódź",medium
+1700005,Łaznów pos. 22 kier. Będków,51.620667,19.767667,26.38,"rural, 26.4 km from Łódź",medium
+1700010,Łaznów pos. 22 kier. Rokiciny,51.620861,19.768139,26.4,"rural, 26.4 km from Łódź",medium
+1600022,Ozorków Łęczycka kier. Leźnica Wlk (Osiedle),51.969978,19.274606,26.57,"rural, 26.6 km from Łódź",medium
+1600019,Ozorków Łęczycka kier. Ozorków PKP,51.970067,19.274095,26.59,"rural, 26.6 km from Łódź",medium
+1700013,Rokiciny Rondo kier. Dworzec PKP,51.650986,19.801122,26.59,"rural, 26.6 km from Łódź",medium
+11000003,Rokiciny Rondo kier. Gałkówek Dworzec PKP,51.650986,19.801122,26.59,"rural, 26.6 km from Łódź",medium
+1700008,Zacharz Południowa kier. Rokiciny,51.602583,19.748611,26.6,"rural, 26.6 km from Łódź",medium
+1500008,Słotwiny PKP kier. Będzelin,51.722509,19.839686,26.66,"rural, 26.7 km from Łódź",medium
+1500027,Słotwiny PKP kier. Budziszewice,51.722509,19.839686,26.66,"rural, 26.7 km from Łódź",medium
+1700021,Rokiciny Rondo kier. Dworzec PKP przez Wilkucice,51.651222,19.802389,26.66,"rural, 26.7 km from Łódź",medium
+2200002,Słotwiny - przystanek autobusowy ul. Tomaszowska,51.72248263,19.8396563,26.66,"rural, 26.7 km from Łódź",medium
+2200021,Słotwiny - przystanek autobusowy ul. Tomaszowska,51.72248263,19.8396563,26.66,"rural, 26.7 km from Łódź",medium
+1700002,Rokiciny Rondo kier. Łaznów ŁA 7,51.648852,19.801606,26.73,"rural, 26.7 km from Łódź",medium
+11000028,Rokiciny Rondo kier. Łaznów ŁA 10,51.648852,19.801606,26.73,"rural, 26.7 km from Łódź",medium
+1700004,Łaznów OSP ŁA 7,51.627917,19.782695,26.78,"rural, 26.8 km from Łódź",medium
+11000030,Łaznów OSP ŁA 10,51.627917,19.782695,26.78,"rural, 26.8 km from Łódź",medium
+1600083,Parzęczew Szkoła kier. Dalików,51.94326294,19.20513335,26.79,"rural, 26.8 km from Łódź",medium
+1700014,Rokiciny Rondo kier. Łaznów przez Wilkucice,51.649472,19.803,26.79,"rural, 26.8 km from Łódź",medium
+1600081,Parzęczew Szkoła  kier. Ozorków PKP,51.94327617,19.20505959,26.8,"rural, 26.8 km from Łódź",medium
+11100026,Remiszewice kier. Rydzynki,51.58821786,19.73125576,26.82,"rural, 26.8 km from Łódź",medium
+11100025,Remiszewice kier. Będków,51.58812948,19.73133732,26.83,"rural, 26.8 km from Łódź",medium
+1700011,Łaznów OSP kier. Rokiciny,51.628834,19.784666,26.84,"rural, 26.8 km from Łódź",medium
+11000001,Łaznów OSP kier. Gałkówek Dworzec PKP,51.628834,19.784666,26.84,"rural, 26.8 km from Łódź",medium
+1700019,Albertów kier. Łaznów,51.676306,19.823445,26.88,"rural, 26.9 km from Łódź",medium
+1700023,Albertów kier. Rokiciny,51.676278,19.823473,26.88,"rural, 26.9 km from Łódź",medium
+1600059,Dalików Wchodnia 68 kier. Ozorków PKP,51.88495543,19.12263227,26.9,"rural, 26.9 km from Łódź",medium
+1600074,Dalików Wchodnia 68 kier. Kościół,51.88501947,19.12263565,26.9,"rural, 26.9 km from Łódź",medium
+1600042,Ozorków Kolejowa  Dw. PKP Ozorków,51.972548,19.266581,27.08,"rural, 27.1 km from Łódź",medium
+32540,Ozorków,51.97249,19.265956,27.1,"rural, 27.1 km from Łódź",medium
+1700003,Łaznów pos. 160 kier. OSP ŁA 7,51.638469,19.798522,27.1,"rural, 27.1 km from Łódź",medium
+11000029,Łaznów pos. 160 kier. OSP ŁA 10,51.638469,19.798522,27.1,"rural, 27.1 km from Łódź",medium
+1700012,Łaznów pos. 160 kier. Rokiciny,51.637877,19.798416,27.13,"rural, 27.1 km from Łódź",medium
+11000002,Łaznów pos. 160 kier. Gałkówek Dworzec PKP,51.637877,19.798416,27.13,"rural, 27.1 km from Łódź",medium
+1600001,Parzęczew / Kościół  kier. Ozorków PKP,51.948802,19.206014,27.23,"rural, 27.2 km from Łódź",medium
+47324,Wągry,51.791288,19.849478,27.24,"rural, 27.2 km from Łódź",medium
+1600051,Parzęczew / Kościół kier. Leźnica Wlk (Osiedle),51.948972,19.205917,27.25,"rural, 27.2 km from Łódź",medium
+1600058,Dalików Cmentarz kier. Ozorków PKP,51.88416708,19.11316336,27.41,"rural, 27.4 km from Łódź",medium
+1600075,Dalików Cmentarz kier. Kościół,51.88420745,19.11312502,27.42,"rural, 27.4 km from Łódź",medium
+1700007,Będków Kościół,51.587522,19.74735,27.67,"rural, 27.7 km from Łódź",medium
+1700018,Wilkucice Małe kier. Łaznów,51.676445,19.83575,27.67,"rural, 27.7 km from Łódź",medium
+1700024,Wilkucice Małe kier. Rokiciny,51.676056,19.836916,27.76,"rural, 27.8 km from Łódź",medium
+1500007,Redzeń Nowy kier. Będzelin,51.720548,19.857836,27.93,"rural, 27.9 km from Łódź",medium
+1700028,Janków Skrzyżowanie kier. Rokiciny,51.640666,19.815083,27.98,"rural, 28.0 km from Łódź",medium
+1600057,Dalików Kościół,51.88244039,19.10193901,27.99,"rural, 28.0 km from Łódź",medium
+1500028,Redzeń Nowy kier. Budziszewice,51.720078,19.859308,28.04,"rural, 28.0 km from Łódź",medium
+46862,Głowno,51.961254,19.702845,28.1,"rural, 28.1 km from Łódź",medium
+2300023,Głowno przy stacji PKP (ul. Kolejowa 2),51.96127884,19.70355761,28.13,"rural, 28.1 km from Łódź",medium
+2300008,Głowno przy stacji PKP (ul. Kolejowa 2),51.96132748,19.70359596,28.14,"rural, 28.1 km from Łódź",medium
+1700015,Janków kier. Łaznów,51.647861,19.834639,28.82,"rural, 28.8 km from Łódź",medium
+1700027,Janków kier. Rokiciny,51.647722,19.834472,28.82,"rural, 28.8 km from Łódź",medium
+1700016,Maksymilianów kier. Łaznów,51.656083,19.841222,28.85,"rural, 28.9 km from Łódź",medium
+1700026,Maksymilianów kier. Rokiciny,51.656111,19.841194,28.85,"rural, 28.8 km from Łódź",medium
+1700017,Wilkucice Duże kier. Łaznów,51.665167,19.847527,28.87,"rural, 28.9 km from Łódź",medium
+1700025,Wilkucice Duże kier. Rokiciny,51.665,19.847389,28.87,"rural, 28.9 km from Łódź",medium
+1600076,Lubocha I kier. Ozorków PKP,51.89310566,19.0962413,28.92,"rural, 28.9 km from Łódź",medium
+1600089,Lubocha I kier. Dalików,51.89308027,19.09614367,28.92,"rural, 28.9 km from Łódź",medium
+1100052,Łask Pl. 11 Listopada kier. Dworzec PKP,51.592508,19.133919,28.98,"rural, 29.0 km from Łódź",medium
+1100002,Łask Pl. 11 Listopada kier. Szczerców,51.592397,19.133672,29.0,"rural, 29.0 km from Łódź",medium
+1600050,Chrząstów Wielki kier. Ozorków PKP,51.956583,19.180917,29.0,"rural, 29.0 km from Łódź",medium
+1600052,Chrząstów Wielki kier. Leźnica Wlk (Osiedle),51.956611,19.180111,29.04,"rural, 29.0 km from Łódź",medium
+1500029,Redzeń Stary kier. Budziszewice,51.715353,19.873786,29.11,"rural, 29.1 km from Łódź",medium
+1500006,Redzeń Stary kier. Będzelin,51.714622,19.874275,29.16,"rural, 29.2 km from Łódź",medium
+1100003,Łask Narutowicza ŁDK kier. Szczerców,51.589386,19.132581,29.28,"rural, 29.3 km from Łódź",medium
+1100051,Łask Narutowicza ŁDK kier. Dworzec PKP,51.589,19.132575,29.31,"rural, 29.3 km from Łódź",medium
+1100072,Łask Żeromskiego kier. Dworzec PKP,51.59975,19.117417,29.37,"rural, 29.4 km from Łódź",medium
+1100073,Łask Żeromskiego kier. Szczerców,51.59925,19.118028,29.37,"rural, 29.4 km from Łódź",medium
+46649,Łask,51.603691,19.11175,29.42,"rural, 29.4 km from Łódź",medium
+1100001,Łask ul. Kolejowa (dworzec PKP),51.603378,19.112017,29.43,"rural, 29.4 km from Łódź",medium
+1100004,Łask Narutowicza 32 kier. Szczerców,51.587158,19.132159,29.46,"rural, 29.5 km from Łódź",medium
+1600080,Budzynek kier. Ozorków PKP,51.93078174,19.1288154,29.53,"rural, 29.5 km from Łódź",medium
+1600085,Budzynek kier. Dalików,51.93087436,19.12856059,29.55,"rural, 29.6 km from Łódź",medium
+1110450,Rogów Towarowy Wąskotorowy,51.812364,19.879919,29.68,"rural, 29.7 km from Łódź",medium
+1100005,Łask Narutowicza/Słoneczna kier. Szczerców,51.583816,19.131634,29.73,"rural, 29.7 km from Łódź",medium
+1600053,Chrząstówek kier. Leźnica Wlk (Osiedle),51.956944,19.165056,29.75,"rural, 29.8 km from Łódź",medium
+1100050,Łask Narutowicza/Słoneczna kier. Dworzec PKP,51.583159,19.13165,29.78,"rural, 29.8 km from Łódź",medium
+1600049,Chrząstówek kier. Ozorków PKP,51.957,19.162944,29.86,"rural, 29.9 km from Łódź",medium
+1600077,Lubocha II kier. Ozorków PKP,51.90380364,19.09044696,29.88,"rural, 29.9 km from Łódź",medium
+1600088,Lubocha II kier. Dalików,51.90380708,19.09034564,29.89,"rural, 29.9 km from Łódź",medium
+1110449,Rogów Osobowy Wąskotorowy,51.817031,19.885713,30.18,"rural, 30.2 km from Łódź",medium
+47316,Rogów,51.817877,19.885916,30.21,"rural, 30.2 km from Łódź",medium
+1800015,Rogów Dworzec PKP,51.817695,19.886472,30.25,"rural, 30.2 km from Łódź",medium
+1100049,Gorczyn 65 kier. Łask,51.575306,19.132889,30.3,"rural, 30.3 km from Łódź",medium
+1100092,Gorczyn 65 kier. Szczerców,51.575048,19.132959,30.31,"rural, 30.3 km from Łódź",medium
+1100048,Gorczyn kier. Łask,51.572195,19.136052,30.37,"rural, 30.4 km from Łódź",medium
+1100007,Gorczyn kier. Szczerców,51.571942,19.136261,30.38,"rural, 30.4 km from Łódź",medium
+1600054,Różyce kier. Leźnica Wlk (Osiedle),51.959278,19.154333,30.44,"rural, 30.4 km from Łódź",medium
+1600048,Różyce kier. Ozorków PKP,51.959306,19.154278,30.45,"rural, 30.4 km from Łódź",medium
+1500031,Regny Kaplica kier. Budziszewice,51.697827,19.887964,30.46,"rural, 30.5 km from Łódź",medium
+280933,Głowno Północne,51.979236,19.722464,30.51,"rural, 30.5 km from Łódź",medium
+1500004,Regny Kaplica kier. Będzelin,51.697041,19.888677,30.52,"rural, 30.5 km from Łódź",medium
+1600079,Psary kier. Ozorków PKP,51.92830857,19.10699838,30.52,"rural, 30.5 km from Łódź",medium
+1600086,Psary kier. Dalików,51.92836669,19.10691821,30.53,"rural, 30.5 km from Łódź",medium
+47399,Baby,51.536098,19.716384,30.59,"rural, 30.6 km from Łódź",medium
+1100047,Gorczyn 78 kier. Łask,51.566658,19.13903,30.65,"rural, 30.7 km from Łódź",medium
+1800018,Marianów Roqowski I kier. Rawa Maz.,51.806806,19.895944,30.65,"rural, 30.7 km from Łódź",medium
+1100093,Gorczyn 78 kier. Szczerców,51.566583,19.138972,30.66,"rural, 30.7 km from Łódź",medium
+1800017,Marianów Roqowski II kier. Rawa Maz.,51.812611,19.896306,30.79,"rural, 30.8 km from Łódź",medium
+1800013,Marianów Roqowski II kier. Rogów PKP,51.812722,19.896389,30.8,"rural, 30.8 km from Łódź",medium
+1600047,Różyce 29 kier. Ozorków PKP,51.966472,19.157306,30.89,"rural, 30.9 km from Łódź",medium
+1800014,Rogów Strażacka kier. Rogów PKP,51.817667,19.896722,30.93,"rural, 30.9 km from Łódź",medium
+1800016,Rogów Strażacka kier. Rawa Maz.,51.817583,19.896667,30.93,"rural, 30.9 km from Łódź",medium
+1600087,Brudnów kier. Dalików,51.91707696,19.08576137,30.96,"rural, 31.0 km from Łódź",medium
+1600078,Brudnów kier. Ozorków PKP,51.91721383,19.08576137,30.97,"rural, 31.0 km from Łódź",medium
+1100046,Mauryca Wiadukt kier. Łask,51.561675,19.140322,30.98,"rural, 31.0 km from Łódź",medium
+1100009,Mauryca Wiadukt kier. Szczerców,51.560731,19.140544,31.04,"rural, 31.0 km from Łódź",medium
+1500003,Regny Jednostka Wojskowa kier. Będzelin,51.692277,19.894777,31.06,"rural, 31.1 km from Łódź",medium
+1500032,Regny Jednostka Wojskowa kier. Budziszewice,51.692277,19.894777,31.06,"rural, 31.1 km from Łódź",medium
+1600055,Różyce 17 kier. Leźnica Wlk (Osiedle),51.972917,19.159389,31.34,"rural, 31.3 km from Łódź",medium
+1600046,Różyce 2 kier. Ozorków PKP,51.975945,19.157861,31.66,"rural, 31.7 km from Łódź",medium
+1100045,Czestków A kier. Łask,51.550856,19.142683,31.73,"rural, 31.7 km from Łódź",medium
+1100010,Czestków A kier. Szczerców,51.550444,19.142719,31.77,"rural, 31.8 km from Łódź",medium
+1600056,Różyce Żmijowe kier. Leźnica Wlk (Osiedle),51.979634,19.152369,32.22,"rural, 32.2 km from Łódź",medium
+1100011,Czestków B kier. Szczerców,51.543575,19.144044,32.27,"rural, 32.3 km from Łódź",medium
+1100044,Czestków B kier. Łask,51.543347,19.144114,32.28,"rural, 32.3 km from Łódź",medium
+2200022,Wykno - przy przejeździe kolejowym,51.66324261,19.90256783,32.5,"rural, 32.5 km from Łódź",medium
+46912,Kamień Łowicki,51.98876,19.753123,32.63,"rural, 32.6 km from Łódź",medium
+1100043,Czestków F Kapliczka kier. Łask,51.537619,19.145269,32.71,"rural, 32.7 km from Łódź",medium
+47548,Wykno,51.660522,19.904797,32.75,"rural, 32.7 km from Łódź",medium
+1100012,Czestków F Kapliczka kier. Szczerców,51.536927,19.145455,32.76,"rural, 32.8 km from Łódź",medium
+1800019,Strzelna kier. Rawa Maz.,51.810083,19.927584,32.86,"rural, 32.9 km from Łódź",medium
+1800012,Strzelna kier. Rogów PKP,51.81025,19.928584,32.93,"rural, 32.9 km from Łódź",medium
+47332,Przyłęk Duży,51.84123,19.917544,32.95,"rural, 33.0 km from Łódź",medium
+47787,Moszczenica,51.503222,19.700313,33.05,"rural, 33.1 km from Łódź",medium
+1100042,Czestków F kier. Łask,51.531681,19.146297,33.16,"rural, 33.2 km from Łódź",medium
+1100013,Czestków F kier. Szczerców,51.531153,19.146444,33.2,"rural, 33.2 km from Łódź",medium
+1600045,Leźnica Wielka kier. Ozorków PKP,51.987755,19.142883,33.33,"rural, 33.3 km from Łódź",medium
+1100041,Wola Buczkowska kier. Łask,51.528034,19.149111,33.35,"rural, 33.4 km from Łódź",medium
+1100014,Wola Buczkowska kier. Szczerców,51.527386,19.149797,33.38,"rural, 33.4 km from Łódź",medium
+32532,Sierpów,52.024692,19.218116,33.76,"rural, 33.8 km from Łódź",medium
+1100040,Wygwizdów kier. Łask,51.514153,19.162006,34.02,"rural, 34.0 km from Łódź",medium
+1600044,Leźnica Wielka (Osiedle),51.989725,19.129489,34.09,"rural, 34.1 km from Łódź",medium
+1100015,Wygwizdów kier. Szczerców,51.513031,19.162436,34.1,"rural, 34.1 km from Łódź",medium
+47340,Krosnowa,51.864442,19.923444,34.13,"rural, 34.1 km from Łódź",medium
+1500002,Budziszewice kier. Będzelin,51.6675,19.934916,34.47,"rural, 34.5 km from Łódź",medium
+1500001,Budziszewice Kościół,51.664944,19.934305,34.52,"rural, 34.5 km from Łódź",medium
+2200003,Wykno - Budziszewice P.A ul. JC Paska / Kolejowa,51.65957495,19.93157669,34.53,"rural, 34.5 km from Łódź",medium
+2200020,Wykno - Budziszewice P.A ul. JC Paska / Kolejowa,51.65957495,19.93157669,34.53,"rural, 34.5 km from Łódź",medium
+1100016,Buczek Kościół kier. Szczerców,51.504161,19.163925,34.84,"rural, 34.8 km from Łódź",medium
+1100039,Buczek Kościół kier. Łask,51.50325,19.164042,34.92,"rural, 34.9 km from Łódź",medium
+1110451,Jeżów,51.805672,19.962048,35.12,"rural, 35.1 km from Łódź",medium
+1100017,Buczek Dino kier. Szczerców,51.499252,19.167595,35.14,"rural, 35.1 km from Łódź",medium
+1100038,Buczek Dino kier. Łask,51.498555,19.169059,35.15,"rural, 35.1 km from Łódź",medium
+1100037,Bachorzyn 3C kier. Łask,51.496072,19.174264,35.17,"rural, 35.2 km from Łódź",medium
+1100018,Bachorzyn 3C kier. Szczerców,51.496222,19.173842,35.18,"rural, 35.2 km from Łódź",medium
+1100036,Bachorzyn II 23 kier. Łask,51.490511,19.185077,35.29,"rural, 35.3 km from Łódź",medium
+1100019,Bachorzyn II 23 kier. Szczerców,51.49025,19.185444,35.3,"rural, 35.3 km from Łódź",medium
+1100020,Bachorzyn Stacja Paliw kier. Szczerców,51.486469,19.192597,35.4,"rural, 35.4 km from Łódź",medium
+1100035,Bachorzyn Stacja Paliw kier. Łask,51.484258,19.194836,35.53,"rural, 35.5 km from Łódź",medium
+47555,Zaosie,51.63364,19.933404,35.68,"rural, 35.7 km from Łódź",medium
+1800011,Jeżów Piotrkowska kier. Rogów PKP,51.811361,19.968973,35.69,"rural, 35.7 km from Łódź",medium
+1800020,Jeżów Piotrkowska kier. Rawa Maz.,51.811306,19.969,35.69,"rural, 35.7 km from Łódź",medium
+242844,Domaniewice Centrum,52.008903,19.785865,35.78,"rural, 35.8 km from Łódź",medium
+2200019,Zaosie - przystanek autobusowy przy DW 715,51.63298671,19.93464448,35.79,"rural, 35.8 km from Łódź",medium
+2200004,Zaosie - przystanek autobusowy przy DW 715,51.63191241,19.9345582,35.83,"rural, 35.8 km from Łódź",medium
+1100034,Zelów Zachodnia/Herbertów kier. Łask,51.47807,19.1957,36.1,"rural, 36.1 km from Łódź",medium
+1100021,Zelów Zachodnia/Herbertów kier. Szczerców,51.4776,19.195722,36.14,"rural, 36.1 km from Łódź",medium
+1100024,Zelów Kościuszki/Sikorskiego kier. Szczerców,51.466486,19.212058,36.68,"rural, 36.7 km from Łódź",medium
+1100031,Zelów Kościuszki/Sikorskiego kier. Łask,51.466823,19.211069,36.68,"rural, 36.7 km from Łódź",medium
+1100032,Zelów Kościuszki/Pileckiego kier. Łask,51.468348,19.205569,36.71,"rural, 36.7 km from Łódź",medium
+1100023,Zelów Kościuszki/Pileckiego kier. Szczerców,51.468498,19.204758,36.72,"rural, 36.7 km from Łódź",medium
+2200018,Skrzynki - Ujazd - Plac Wolności,51.59795752,19.92213888,36.74,"rural, 36.7 km from Łódź",medium
+1100028,Zelów Piotrkowska ORLEN kier. Łask,51.458319,19.237016,36.75,"rural, 36.7 km from Łódź",medium
+1100027,Zelów Piotrkowska ORLEN kier. Szczerców,51.458342,19.236369,36.76,"rural, 36.8 km from Łódź",medium
+2200005,Skrzynki - Ujazd - Plac Wolności,51.59758753,19.92221744,36.77,"rural, 36.8 km from Łódź",medium
+47746,Jarosty,51.46145,19.693174,36.91,"rural, 36.9 km from Łódź",medium
+1100071,Łobudzice III kier. Łask,51.455056,19.24325,36.91,"rural, 36.9 km from Łódź",medium
+19414,Zduńska Wola Południowa,51.580187,19.005472,36.96,"rural, 37.0 km from Łódź",medium
+1100074,Łobudzice III kier. Szczerców,51.454139,19.244527,36.96,"rural, 37.0 km from Łódź",medium
+1100026,Zelów MGOPS kier. Szczerców,51.460061,19.22357,36.97,"rural, 37.0 km from Łódź",medium
+32524,Łęczyca,52.049248,19.193205,36.98,"rural, 37.0 km from Łódź",medium
+1100029,Zelów MGOPS kier. Łask,51.460217,19.222675,36.98,"rural, 37.0 km from Łódź",medium
+19406,Zduńska Wola Karsznice,51.588887,18.994723,37.08,"rural, 37.1 km from Łódź",medium
+47357,Lipce Reymontowskie,51.905308,19.943733,37.18,"rural, 37.2 km from Łódź",medium
+1800010,Jeżów Rawska kier. Rogów PKP,51.810889,19.991194,37.19,"rural, 37.2 km from Łódź",medium
+1800021,Jeżów Rawska kier. Rawa Maz.,51.810778,19.991916,37.24,"rural, 37.2 km from Łódź",medium
+1100070,Łobudzice II  kier. Łask,51.448277,19.253889,37.32,"rural, 37.3 km from Łódź",medium
+1100075,Łobudzice II kier. Szczerców,51.448277,19.253639,37.32,"rural, 37.3 km from Łódź",medium
+1100069,Łobudzice Szkoła kier. Łask,51.446111,19.257194,37.45,"rural, 37.5 km from Łódź",medium
+1100068,Łobudzice I kier. Łask,51.441694,19.261944,37.79,"rural, 37.8 km from Łódź",medium
+1100076,Łobudzice I kier. Szczerców,51.441389,19.262194,37.82,"rural, 37.8 km from Łódź",medium
+46870,Domaniewice,52.020718,19.821055,38.33,"rural, 38.3 km from Łódź",medium
+1100077,Grębociny II kier. Szczerców,51.434694,19.268028,38.38,"rural, 38.4 km from Łódź",medium
+1100067,Grębociny II kier. Łask,51.435,19.258694,38.57,"rural, 38.6 km from Łódź",medium
+1800009,Białynin kier. Rogów PKP,51.808417,20.012333,38.59,"rural, 38.6 km from Łódź",medium
+1800022,Białynin kier. Rawa Maz.,51.805972,20.013917,38.66,"rural, 38.7 km from Łódź",medium
+1100066,Grębociny I kier. Łask,51.435305,19.249833,38.76,"rural, 38.8 km from Łódź",medium
+1100078,Grębociny I kier. Szczerców,51.435361,19.249222,38.77,"rural, 38.8 km from Łódź",medium
+19430,Zduńska Wola,51.611421,18.947041,38.81,"rural, 38.8 km from Łódź",medium
+2700001,Zduńska Wola - przy stacji PKP (Plac Żelazny),51.6109659,18.9466448,38.86,"rural, 38.9 km from Łódź",medium
+47563,Skrzynki,51.60209,19.967145,39.27,"rural, 39.3 km from Łódź",medium
+1100079,Sromutka kier. Szczerców,51.436083,19.219,39.52,"rural, 39.5 km from Łódź",medium
+1100065,Sromutka kier. Łask,51.436027,19.218834,39.53,"rural, 39.5 km from Łódź",medium
+1100064,Pukawica kier. Łask,51.435944,19.210889,39.77,"rural, 39.8 km from Łódź",medium
+1100080,Pukawica kier. Szczerców,51.435972,19.210444,39.78,"rural, 39.8 km from Łódź",medium
+1100081,Sobki Sklep kier. Szczerców,51.435722,19.192889,40.34,"rural, 40.3 km from Łódź",medium
+1100063,Sobki Sklep kier. Łask,51.435666,19.192639,40.35,"rural, 40.3 km from Łódź",medium
+1100062,Sobki II kier. Łask,51.4355,19.181695,40.71,"rural, 40.7 km from Łódź",medium
+1100082,Sobki II kier. Szczerców,51.435527,19.181028,40.73,"rural, 40.7 km from Łódź",medium
+1100083,Sobki I kier. Szczerców,51.435444,19.176861,40.88,"rural, 40.9 km from Łódź",medium
+1100061,Sobki I kier. Łask,51.435416,19.176417,40.89,"rural, 40.9 km from Łódź",medium
+280417,Izabelów,51.610052,18.912689,41.03,"rural, 41.0 km from Łódź",medium
+47365,Płyćwia,51.916638,20.002061,41.34,"rural, 41.3 km from Łódź",medium
+1100060,Krześlów kier. Łask,51.434277,19.164833,41.39,"rural, 41.4 km from Łódź",medium
+1100084,Krześlów kier. Szczerców,51.434111,19.164722,41.41,"rural, 41.4 km from Łódź",medium
+1800007,Głuchów Starowiejska kier. Rogów PKP,51.782556,20.059167,41.51,"rural, 41.5 km from Łódź",medium
+1800024,Głuchów Starowiejska kier. Rawa Maz.,51.780611,20.062667,41.74,"rural, 41.7 km from Łódź",medium
+47704,Piotrków Trybunalski,51.410535,19.684758,41.85,"rural, 41.8 km from Łódź",medium
+19547,Kozuby,51.49435824,19.02322975,42.0,"rural, 42.0 km from Łódź",medium
+1100085,Wypychów kier. Szczerców,51.426056,19.163083,42.25,"rural, 42.2 km from Łódź",medium
+1100059,Wypychów kier. Łask,51.425611,19.163083,42.29,"rural, 42.3 km from Łódź",medium
+32581,Gawrony,52.112234,19.219517,42.49,"rural, 42.5 km from Łódź",medium
+1800006,Głuchów Pl. Kościuszki kier. Rogów PKP,51.779611,20.077,42.72,"rural, 42.7 km from Łódź",medium
+1800025,Głuchów Pl. Kościuszki kier. Rawa Maz.,51.779584,20.077195,42.74,"rural, 42.7 km from Łódź",medium
+1100058,Podlesie kier. Łask,51.417723,19.1625,43.08,"rural, 43.1 km from Łódź",medium
+1100086,Podlesie kier. Szczerców,51.417139,19.162389,43.14,"rural, 43.1 km from Łódź",medium
+46888,Stare Grudze,52.048808,19.90186,44.36,"rural, 44.4 km from Łódź",medium
+2500005,Witonia przystanek autobusowy DK 60 (ul. Centralna,52.14666939,19.29558751,44.48,"rural, 44.5 km from Łódź",medium
+47373,Maków,51.942208,20.045835,45.27,"rural, 45.3 km from Łódź",medium
+19471,Męcka Wola,51.609089,18.846549,45.28,"rural, 45.3 km from Łódź",medium
+19554,Siedlce Łaskie,51.45697735,19.01545714,45.38,"rural, 45.4 km from Łódź",medium
+2700008,Męcka Wola - Stawiszcze przystanek autobusowy,51.60490505,18.84663902,45.45,"rural, 45.4 km from Łódź",medium
+1800005,Złota II kier. Rogów PKP,51.776584,20.117056,45.46,"rural, 45.5 km from Łódź",medium
+1800026,Złota II kier. Rawa Maz.,51.775945,20.120306,45.68,"rural, 45.7 km from Łódź",medium
+2700002,Męcka Wola - Stawiszcze przystanek autobusowy,51.60474573,18.84230524,45.73,"rural, 45.7 km from Łódź",medium
+2500004,Witonia - przy stacji PKP (ul. Dworcowa),52.15683137,19.2771153,45.9,"rural, 45.9 km from Łódź",medium
+32516,Witonia,52.156887,19.276631,45.91,"rural, 45.9 km from Łódź",medium
+2200006,Tomaszów Mazowiecki - przy stacji PKP ul. Dworcowa,51.54684176,20.03297153,46.22,"rural, 46.2 km from Łódź",medium
+2800001,Tomaszów Mazowiecki - przy stacji PKP ul. Dworcowa,51.54684176,20.03297153,46.22,"rural, 46.2 km from Łódź",medium
+47605,Tomaszów Mazowiecki,51.54545,20.035184,46.44,"rural, 46.4 km from Łódź",medium
+47738,Milejów,51.355424,19.675737,47.38,"rural, 47.4 km from Łódź",medium
+1100087,Lubiec kier. Szczerców,51.375056,19.152417,47.63,"rural, 47.6 km from Łódź",medium
+1100057,Lubiec kier. Łask,51.374723,19.152111,47.67,"rural, 47.7 km from Łódź",medium
+1800004,Złota I kier. Rogów PKP,51.771361,20.150806,47.76,"rural, 47.8 km from Łódź",medium
+1100056,Lubiec Szkoła kier. Łask,51.375473,19.144305,47.83,"rural, 47.8 km from Łódź",medium
+1100088,Lubiec Szkoła kier. Szczerców,51.3755,19.144277,47.83,"rural, 47.8 km from Łódź",medium
+1800027,Złota I kier. Rawa Maz.,51.771334,20.151861,47.84,"rural, 47.8 km from Łódź",medium
+2100011,Polesie - przy posesji 120,52.02795656,20.00924842,48.26,"rural, 48.3 km from Łódź",medium
+2100029,Polesie - przy posesji 119,52.02802307,20.00932731,48.27,"rural, 48.3 km from Łódź",medium
+1100055,Magdalenów kier. Łask,51.365528,19.131861,49.21,"rural, 49.2 km from Łódź",medium
+2100015,Sierakowice Skierniewickie 116 - przy przystanku o,51.99837293,20.0614791,49.28,"rural, 49.3 km from Łódź",medium
+2100025,Sierakowice Skierniewickie - przy przystanku osobo,51.9985522,20.0614743,49.29,"rural, 49.3 km from Łódź",medium
+33043,Sierakowice Skierniewickie,51.998756,20.061517,49.31,"rural, 49.3 km from Łódź",medium
+1100089,Magdalenów kier. Szczerców,51.364722,19.131195,49.31,"rural, 49.3 km from Łódź",medium
+2200017,Tomaszów Mazowiecki Białobrzegi - przystanek autob,51.52101318,20.06038301,49.35,"rural, 49.4 km from Łódź",medium
+2100006,Jackowice - przystanek autobusowy DK92 Zduny-Wieś,52.15142962,19.79597269,49.41,"rural, 49.4 km from Łódź",medium
+2100012,Bełchów - przy stacji PKP (ul. Dworcowa 10),52.02582108,20.03309022,49.41,"rural, 49.4 km from Łódź",medium
+2100028,Bełchów - przy stacji PKP (ul. Dworcowa 9),52.02579234,20.03305099,49.41,"rural, 49.4 km from Łódź",medium
+2100033,Jackowice - przystanek autobusowy DK92 Zduny-Wieś,52.15273141,19.79229781,49.42,"rural, 49.4 km from Łódź",medium
+2700003,"Sieradz Męka - skrzyżowanie ul. Sienkiewicza z ul. Uniejowską (Woźniki), przystanek autobusowy",51.60129775,18.78682972,49.43,"rural, 49.4 km from Łódź",medium
+33027,Bełchów,52.02598,20.033444,49.44,"rural, 49.4 km from Łódź",medium
+2700007,"Sieradz Męka - skrzyżowanie ul. Sienkiewicza z ul. Uniejowską (Woźniki), przystanek autobusowy",51.60111105,18.78595378,49.49,"rural, 49.5 km from Łódź",medium
+19505,Sieradz Męka,51.615114,18.776873,49.55,"rural, 49.5 km from Łódź",medium
+2200007,Tomaszów Mazowiecki Białobrzegi - przystanek autob,51.51975566,20.06339888,49.6,"rural, 49.6 km from Łódź",medium
+2100016,Sierakowice Lewe (Zatorze) - na wysokości nr 145 kier. Skierniewice,51.99125931,20.07506205,49.66,"rural, 49.7 km from Łódź",medium
+2100024,Sierakowice Lewe (Zatorze) - na wysokości nr 145 kier. Łowicz,51.99132238,20.07508671,49.66,"rural, 49.7 km from Łódź",medium
+48884,Tomaszów Mazowiecki Białobrzegi,51.524173,20.069232,49.68,"rural, 49.7 km from Łódź",medium
+32474,Jackowice,52.156985,19.794619,49.91,"rural, 49.9 km from Łódź",medium
+1800003,Soszyce kier. Rogów PKP,51.773639,20.182334,49.94,"rural, 49.9 km from Łódź",medium
+33050,Łowicz Przedmieście,52.09304,19.946816,50.06,"rural, 50.1 km from Łódź",medium
+1800028,Soszyce kier. Rawa Maz.,51.7735,20.184055,50.06,"rural, 50.1 km from Łódź",medium
+2100013,Bełchów - przy OSP Bełchów,52.01870804,20.0533832,50.07,"rural, 50.1 km from Łódź",medium
+2100027,Bełchów - przy OSP Bełchów kier. Łowicz,52.01884339,20.05339393,50.08,"rural, 50.1 km from Łódź",medium
+2100014,Sierakowice Lewe 55 - (przy firmie WW Instal),52.00436611,20.07135674,50.21,"rural, 50.2 km from Łódź",medium
+2100026,Sierakowice Lewe 54A - (przy firmie WW Instal),52.00434303,20.07142329,50.21,"rural, 50.2 km from Łódź",medium
+2100022,Mokra - przy przystanku osobowym PKP 78T,51.97870434,20.09944235,50.41,"rural, 50.4 km from Łódź",medium
+33035,Mokra,51.9787,20.099704,50.42,"rural, 50.4 km from Łódź",medium
+2100018,Mokra - przy przystanku osobowym PKP 141,51.97896383,20.09978372,50.44,"rural, 50.4 km from Łódź",medium
+2100030,Bobrowniki - przy przystanku osobowym PKP / sklep,52.05844716,20.00997721,50.46,"rural, 50.5 km from Łódź",medium
+33019,Bobrowniki,52.058709,20.010322,50.49,"rural, 50.5 km from Łódź",medium
+2100017,Mokra - na wysokości nr 24,51.98350407,20.09735796,50.54,"rural, 50.5 km from Łódź",medium
+2100023,Mokra - na wysokości nr 24A,51.98361462,20.09724949,50.54,"rural, 50.5 km from Łódź",medium
+2100010,Bobrowniki - przy przystanku osobowym PKP 191A,52.0589382,20.0113047,50.56,"rural, 50.6 km from Łódź",medium
+2100005,Zosinów - przy przystanku osobowym PKP 67A,52.18554609,19.71591025,50.61,"rural, 50.6 km from Łódź",medium
+2100034,Zosinów - przy przystanku osobowym PKP 13,52.18543067,19.71625445,50.61,"rural, 50.6 km from Łódź",medium
+32466,Zosinów,52.185681,19.716513,50.64,"rural, 50.6 km from Łódź",medium
+2100003,Złotniki Kutnowskie - przystanek autobusowy DK 92,52.21702656,19.49119431,50.96,"rural, 51.0 km from Łódź",medium
+2100036,Złotniki Kutnowskie - przystanek autobusowy DK 92,52.21738803,19.48817333,50.99,"rural, 51.0 km from Łódź",medium
+2100032,"Niedźwiada Łowicka - przyst. aut. DK 92 KM 393,5 N",52.13842149,19.87854328,51.11,"rural, 51.1 km from Łódź",medium
+19562,Chociw Łaski,51.40546371,18.98272674,51.2,"rural, 51.2 km from Łódź",medium
+1100090,Zagadki kier. Szczerców,51.348833,19.120111,51.24,"rural, 51.2 km from Łódź",medium
+2100007,"Niedźwiada Łowicka - przyst. aut. DK 92 KM 393,5 N",52.13777017,19.88332581,51.24,"rural, 51.2 km from Łódź",medium
+49759,Jeleń,51.500868,20.074118,51.38,"rural, 51.4 km from Łódź",medium
+1100054,Zagadki kier. Łask,51.347639,19.119417,51.38,"rural, 51.4 km from Łódź",medium
+2100009,Bobrowniki - GOK w Bobrownikach kier. Skierniewice,52.06396137,20.02053461,51.4,"rural, 51.4 km from Łódź",medium
+2100031,Bobrowniki - GOK w Bobrownikach kier. Łowicz,52.06397074,20.02064047,51.41,"rural, 51.4 km from Łódź",medium
+32904,Łowicz Główny,52.105824,19.954227,51.45,"rural, 51.5 km from Łódź",medium
+2100008,Łowicz Główny - przy stacji PKP (ul. Dworcowa),52.10603006,19.9547274,51.49,"rural, 51.5 km from Łódź",medium
+32482,Niedźwiada Łowicka,52.140297,19.884098,51.5,"rural, 51.5 km from Łódź",medium
+2100035,Żychlin - przy stacji PKP 6D,52.21286233,19.61774578,51.63,"rural, 51.6 km from Łódź",medium
+2100004,Żychlin - przy stacji PKP 6C,52.21309735,19.61741597,51.65,"rural, 51.6 km from Łódź",medium
+32433,Żychlin,52.213211,19.61755,51.66,"rural, 51.7 km from Łódź",medium
+2100037,Sklęczki - przystanek autobusowy DK 92 Agroma/GTL,52.22417916,19.41955521,51.76,"rural, 51.8 km from Łódź",medium
+2100002,Sklęczki - przystanek autobusowy DK 92 Agroma,52.22448549,19.41543705,51.81,"rural, 51.8 km from Łódź",medium
+2800002,Jeleń - przystanek autobusowy (skrzyżowanie drogi 713 z drogą na Jeleń),51.50466163,20.08609093,51.83,"rural, 51.8 km from Łódź",medium
+32458,Złotniki Kutnowskie,52.225299,19.490999,51.87,"rural, 51.9 km from Łódź",medium
+32441,Sklęczki,52.225604,19.407094,51.97,"rural, 52.0 km from Łódź",medium
+2800012,Jeleń - przystanek autobusowy (skrzyżowanie drogi 713 z drogą na Jeleń),51.5036559,20.0876767,51.99,"rural, 52.0 km from Łódź",medium
+2100019,Skierniewice ul Prymasowska kier.PKP,51.95952952,20.14226334,52.06,"rural, 52.1 km from Łódź",medium
+2100021,Skierniewice ul Prymasowska kier. Łowicz,51.95962574,20.14242378,52.08,"rural, 52.1 km from Łódź",medium
+178685,Spała,51.552405,20.135127,52.13,"rural, 52.1 km from Łódź",medium
+2100038,Arkadia kier. Skierniewice,52.08320764,20.00760109,52.19,"rural, 52.2 km from Łódź",medium
+2100039,Arkadia kier. Łowicz,52.08317062,20.00772627,52.19,"rural, 52.2 km from Łódź",medium
+1800002,Ścieki kier. Rogów PKP,51.771528,20.219,52.46,"rural, 52.5 km from Łódź",medium
+2500006,Kutno przystanek autobusowy DK 60 Łęczycka/Matejki,52.22650635,19.34440947,52.53,"rural, 52.5 km from Łódź",medium
+2100001,Kutno - przy stacji PKP (ul. 3 Maja),52.22710506,19.35013461,52.54,"rural, 52.5 km from Łódź",medium
+2500007,Kutno - przy stacji PKP (ul. 3 Maja),52.22710506,19.35013461,52.54,"rural, 52.5 km from Łódź",medium
+32201,Kutno,52.227139,19.34818,52.56,"rural, 52.6 km from Łódź",medium
+1800029,Ścieki kier. Rawa Maz.,51.77125,20.22175,52.64,"rural, 52.6 km from Łódź",medium
+47795,Rozprza,51.301352,19.659965,52.82,"rural, 52.8 km from Łódź",medium
+2100020,Skierniewice - przy stacji PKP (ul. Dworcowa),51.96640569,20.15040612,52.89,"rural, 52.9 km from Łódź",medium
+47001,Skierniewice,51.967065,20.149949,52.9,"rural, 52.9 km from Łódź",medium
+1100053,Szczerców Mickiewicza kier. Łask,51.333306,19.112333,53.02,"rural, 53.0 km from Łódź",medium
+19513,Sieradz Warta,51.602977,18.730323,53.03,"rural, 53.0 km from Łódź",medium
+2700004,Sieradz Warta - ul. Sienkiewicza (Rondo) przystanek autobusowy,51.59710808,18.73309668,53.07,"rural, 53.1 km from Łódź",medium
+2700006,Sieradz Warta - ul. Sienkiewicza (Rondo) przystanek autobusowy,51.59626228,18.73242126,53.15,"rural, 53.1 km from Łódź",medium
+1100091,Szczerców Pl.Św.Floriana,51.330611,19.114472,53.22,"rural, 53.2 km from Łódź",medium
+19489,Sieradz,51.597785,18.714626,54.24,"rural, 54.2 km from Łódź",medium
+2700005,Sieradz - przy stacji PKP (ul. Kolejowa),51.59680626,18.71485973,54.26,"rural, 54.3 km from Łódź",medium
+1800001,Rawa Maz. Dworzec Autobusowy,51.767223,20.247416,54.4,"rural, 54.4 km from Łódź",medium
+47803,Luciążanka,51.277452,19.648333,55.18,"rural, 55.2 km from Łódź",medium
+2200008,Brzustów - przystanek autobusowy (Brzustów - Szkoł,51.49383958,20.14430138,55.87,"rural, 55.9 km from Łódź",medium
+2200016,Brzustów - przystanek autobusowy (Brzustów - Szkoł,51.49383958,20.14430138,55.87,"rural, 55.9 km from Łódź",medium
+48918,Brzustów,51.493759,20.146745,56.02,"rural, 56.0 km from Łódź",medium
+49742,Bratków,51.455602,20.114865,56.6,"rural, 56.6 km from Łódź",medium
+2800003,Bratków - przy stacji PKP,51.45533635,20.11607188,56.69,"rural, 56.7 km from Łódź",medium
+2800011,Bratków - przy stacji PKP,51.45526664,20.1161953,56.7,"rural, 56.7 km from Łódź",medium
+279431,Tomaszówek,51.44953,20.121502,57.38,"rural, 57.4 km from Łódź",medium
+2800004,Tomaszówek - skrzyżowanie (przy posesji Bratków 37),51.44409006,20.11998773,57.66,"rural, 57.7 km from Łódź",medium
+2800010,Tomaszówek - skrzyżowanie (przy posesji Bratków 37),51.44403364,20.12037732,57.69,"rural, 57.7 km from Łódź",medium
+47811,Wilkoszewice,51.251733,19.630554,57.7,"rural, 57.7 km from Łódź",medium
+19570,Rusiec Łódzki,51.31608982,18.96909463,59.72,"rural, 59.7 km from Łódź",medium
+48892,Antoniów,51.475699,20.197564,60.07,"rural, 60.1 km from Łódź",medium
+47829,Gorzkowice,51.218103,19.602954,61.02,"rural, 61.0 km from Łódź",medium
+2200010,Antoniów - przystanek autobusowy (Antoniów przy Ka,51.46644111,20.21099359,61.4,"rural, 61.4 km from Łódź",medium
+2200014,Antoninów - przystanek autobusowy (Antoniów przy K,51.46644111,20.21099359,61.4,"rural, 61.4 km from Łódź",medium
+49734,Szadkowice,51.419388,20.16893,62.02,"rural, 62.0 km from Łódź",medium
+2800005,Szadkowice - zatoka przy przystanku osobowym PKP,51.41908871,20.16847696,62.02,"rural, 62.0 km from Łódź",medium
+2800009,Szadkowice - zatoka przy przystanku osobowym PKP,51.41908871,20.16847696,62.02,"rural, 62.0 km from Łódź",medium
+2200015,"Dęba Opoczyńska - przystanek autobusowy 726/75, 72",51.48437094,20.24828657,62.6,"rural, 62.6 km from Łódź",medium
+2200009,"Dęba Opoczyńska - przystanek autobusowy 726/75, 72",51.48358679,20.24854172,62.65,"rural, 62.7 km from Łódź",medium
+47837,Gorzędów,51.197077,19.544121,62.8,"rural, 62.8 km from Łódź",medium
+48868,Dęba Opoczyńska,51.481948,20.258612,63.35,"rural, 63.4 km from Łódź",medium
+47845,Kamieńsk,51.186003,19.498224,63.81,"rural, 63.8 km from Łódź",medium
+19588,Huta,51.27041486,18.96340597,64.2,"rural, 64.2 km from Łódź",medium
+2800008,"Słomianka - przystanek autobusowy Gawrony Zachód (droga 713/07), Gawrony Dom Ludowy (713/20)",51.39719133,20.19760048,65.11,"rural, 65.1 km from Łódź",medium
+2800006,"Słomianka - przystanek autobusowy Gawrony Zachód (droga 713/07), Gawrony Dom Ludowy (713/20)",51.39662844,20.19922824,65.24,"rural, 65.2 km from Łódź",medium
+49726,Słomianka,51.400975,20.205386,65.28,"rural, 65.3 km from Łódź",medium
+47852,Gomunice,51.1637,19.486847,66.25,"rural, 66.3 km from Łódź",medium
+1900032,Rząśnia Rondo,51.22154767,19.04249047,66.32,"rural, 66.3 km from Łódź",medium
+1900031,Rząśnia Urząd Gminy kier. Rondo,51.21694696,19.0419631,66.8,"rural, 66.8 km from Łódź",medium
+1900033,Rząśnia Urząd Gminy kier. Działoszyn,51.21694738,19.04187861,66.8,"rural, 66.8 km from Łódź",medium
+45344,Błaszki,51.67369528,18.47115361,68.58,"rural, 68.6 km from Łódź",medium
+1900030,Suchowola Skrzyżowanie kier. Rząśnia,51.19658561,19.05077893,68.6,"rural, 68.6 km from Łódź",medium
+1900034,Suchowola Skrzyżowanie kier. Działoszyn,51.19658771,19.05072595,68.6,"rural, 68.6 km from Łódź",medium
+1900035,Gawłów Dolna kier. Działoszyn,51.1907565,19.04670888,69.31,"rural, 69.3 km from Łódź",medium
+1900029,Gawłów Dolna kier. Rząśnia,51.19059197,19.04619009,69.34,"rural, 69.3 km from Łódź",medium
+1900028,Biała pos. 179 kier. Rząśnia,51.18860209,19.03851895,69.76,"rural, 69.8 km from Łódź",medium
+1900036,Biała pos. 179 kier. Działoszyn,51.18863104,19.03848944,69.76,"rural, 69.8 km from Łódź",medium
+1900027,Biała pos. 2C kier. Rząśnia,51.18668446,19.03098601,70.17,"rural, 70.2 km from Łódź",medium
+1900037,Biała pos. 2C kier. Działoszyn,51.18670797,19.03095706,70.17,"rural, 70.2 km from Łódź",medium
+1900026,Biała pos. 9 kier. Rząśnia,51.18567232,19.02811178,70.36,"rural, 70.4 km from Łódź",medium
+1900038,Biała pos. 9 kier. Działoszyn,51.18570226,19.02805201,70.36,"rural, 70.4 km from Łódź",medium
+47860,Dobryszyce k/Radomska,51.124147,19.444265,70.63,"rural, 70.6 km from Łódź",medium
+2800007,Opoczno - przy stacji PKP,51.37318877,20.27167442,70.81,"rural, 70.8 km from Łódź",medium
+49700,Opoczno,51.372899,20.271605,70.82,"rural, 70.8 km from Łódź",medium
+72058,Chorzew Siemkowice,51.20929341,18.9412038,70.82,"rural, 70.8 km from Łódź",medium
+1900025,Biała PKP kier. Rząśnia,51.17617772,19.02609141,71.38,"rural, 71.4 km from Łódź",medium
+1900013,Biała PKP,51.17609177,19.02598266,71.39,"rural, 71.4 km from Łódź",medium
+1900039,Biała PKP kier. Działoszyn,51.17589599,19.02584718,71.41,"rural, 71.4 km from Łódź",medium
+280951,Biała Szlachecka,51.17524409,19.02536854,71.49,"rural, 71.5 km from Łódź",medium
+1900012,Wręczyca kier. Rząśnia,51.16884617,19.02385781,72.18,"rural, 72.2 km from Łódź",medium
+1900014,Wręczyca kier. Działoszyn,51.16800681,19.02321957,72.29,"rural, 72.3 km from Łódź",medium
+177993,Radzice,51.467054,20.395933,72.52,"rural, 72.5 km from Łódź",medium
+63180,Wistka,51.144874,19.096856,72.73,"rural, 72.7 km from Łódź",medium
+2200013,Radzice - przystanek autobusowy (Radzice Małe IV),51.45898715,20.39986873,73.17,"rural, 73.2 km from Łódź",medium
+2200011,Radzice - przystanek autobusowy (Radzice Małe IV),51.45878421,20.40053791,73.22,"rural, 73.2 km from Łódź",medium
+1900011,Pajęczno 1 Maja kier. Rząśnia,51.1534699,19.00845049,74.18,"rural, 74.2 km from Łódź",medium
+1900015,Pajęczno 1 Maja kier. Działoszyn,51.15319089,19.00805555,74.22,"rural, 74.2 km from Łódź",medium
+63222,Dubidze Kolonia,51.1168232,19.12926462,74.96,"rural, 75.0 km from Łódź",medium
+1900010,Pajęczno Centrum kier. Rząśnia,51.14558686,18.99853575,75.27,"rural, 75.3 km from Łódź",medium
+1900016,Pajęczno Centrum kier. Działoszyn,51.14558686,18.99853575,75.27,"rural, 75.3 km from Łódź",medium
+1900017,Pajęczno Wieluńska kier. Działoszyn,51.14719717,18.98976683,75.36,"rural, 75.4 km from Łódź",medium
+1900009,Pajęczno Wieluńska kier. Rząśnia,51.14690991,18.98904638,75.42,"rural, 75.4 km from Łódź",medium
+47886,Radomsko,51.076129,19.43747,75.97,"rural, 76.0 km from Łódź",medium
+63172,Dubidze,51.10320393,19.14264343,76.13,"rural, 76.1 km from Łódź",medium
+49775,Sitowa,51.337777,20.325542,76.18,"rural, 76.2 km from Łódź",medium
+2800041,Sitowa - przystanek autobusowy Sitowa skrzyżowanie (droga 713/01 i 02),51.33902517,20.33191773,76.44,"rural, 76.4 km from Łódź",medium
+2800013,Sitowa - przystanek autobusowy Sitowa skrzyżowanie (droga 713/01 i 02),51.33762695,20.33309962,76.6,"rural, 76.6 km from Łódź",medium
+1900008,Dylów Rządowy kier. Rząśnia,51.1415304,18.96727302,76.61,"rural, 76.6 km from Łódź",medium
+1900018,Dylów Rządowy kier. Działoszyn,51.14120888,18.96576883,76.69,"rural, 76.7 km from Łódź",medium
+2200012,Drzewica - przy stacji PKP,51.43805016,20.46479027,78.24,"rural, 78.2 km from Łódź",medium
+48827,Drzewica,51.436875,20.465884,78.36,"rural, 78.4 km from Łódź",medium
+1900007,Trębaczew Park kier. Rząśnia,51.13185355,18.92795536,78.81,"rural, 78.8 km from Łódź",medium
+1900019,Trębaczew Park kier. Działoszyn,51.13181923,18.92751047,78.83,"rural, 78.8 km from Łódź",medium
+280954,Nowa Brzeźnica,51.07490731,19.14674189,79.08,"rural, 79.1 km from Łódź",medium
+1900006,Trębaczew Kościół kier. Rząśnia,51.12908847,18.91899082,79.37,"rural, 79.4 km from Łódź",medium
+1900020,Trębaczew Kościół kier. Działoszyn,51.12907643,18.91874537,79.38,"rural, 79.4 km from Łódź",medium
+1900005,Trębaczew Wyzwolenia/Kolejowa kier. Rząśnia,51.124476,18.90498449,80.29,"rural, 80.3 km from Łódź",medium
+1900021,Trębaczew Wyzwolenia/Kolejowa kier. Działoszyn,51.12438203,18.90424441,80.32,"rural, 80.3 km from Łódź",medium
+1900004,Posmykowizna kier. Rząśnia,51.1219002,18.89433199,80.89,"rural, 80.9 km from Łódź",medium
+1900022,Posmykowizna kier. Działoszyn,51.12141842,18.89216132,81.01,"rural, 81.0 km from Łódź",medium
+2800014,Petrykozy - przy przystanku osobowym PKP (parking),51.29596257,20.36382507,81.17,"rural, 81.2 km from Łódź",medium
+2800040,Petrykozy - przy przystanku osobowym PKP (parking),51.29596257,20.36382507,81.17,"rural, 81.2 km from Łódź",medium
+48850,Bieliny Opoczyńskie,51.423924,20.502361,81.27,"rural, 81.3 km from Łódź",medium
+49767,Petrykozy,51.294536,20.364178,81.29,"rural, 81.3 km from Łódź",medium
+1900003,Działoszyn Piłsudskiego/CPN kier. Rząśnia,51.11979628,18.88566948,81.39,"rural, 81.4 km from Łódź",medium
+1900023,Działoszyn Piłsudskiego/CPN kier. Plac Wolności,51.11955426,18.88418401,81.46,"rural, 81.5 km from Łódź",medium
+1900002,Działoszyn Piłsudskiego/Starzyńskiego kier.Rząśnia,51.11763285,18.87621934,81.92,"rural, 81.9 km from Łódź",medium
+1900024,Działoszyn Urząd Gminy kier. Plac Wolności,51.11711884,18.87291067,82.08,"rural, 82.1 km from Łódź",medium
+1900001,Działoszyn Plac Wolności,51.11624326,18.864651,82.45,"rural, 82.4 km from Łódź",medium
+63156,Ważne Młyny,51.03940899,19.14678435,82.88,"rural, 82.9 km from Łódź",medium
+2800015,Ruda Białaczowska - przystanek autobusowy Sędów,51.26081561,20.36462058,83.77,"rural, 83.8 km from Łódź",medium
+2800039,Ruda Białaczowska - przystanek autobusowy Sędów,51.26081561,20.36462058,83.77,"rural, 83.8 km from Łódź",medium
+49783,Ruda Białaczowska,51.261507,20.382008,84.62,"rural, 84.6 km from Łódź",medium
+45310,Opatówek,51.74341639,18.22724,84.67,"rural, 84.7 km from Łódź",medium
+48843,Zygmuntów,51.409245,20.570447,86.21,"rural, 86.2 km from Łódź",medium
+280952,Stary Broniszew,50.98338218,19.16078526,88.69,"rural, 88.7 km from Łódź",medium
+48835,Smogorzów Przysuski,51.394905,20.605009,89.08,"rural, 89.1 km from Łódź",medium
+2800016,Kornica - przy przystanku osobowym PKP,51.21721641,20.40522481,89.12,"rural, 89.1 km from Łódź",medium
+2800038,Kornica - przy przystanku osobowym PKP,51.21721641,20.40522481,89.12,"rural, 89.1 km from Łódź",medium
+49536,Kornica,51.216456,20.405528,89.2,"rural, 89.2 km from Łódź",medium
+280953,Cykarzew Północny,50.96405992,19.16358227,90.74,"rural, 90.7 km from Łódź",medium
+63149,Stary Cykarzew,50.95304011,19.168978,91.85,"rural, 91.8 km from Łódź",medium
+2800017,Końskie - przy stacji PKP,51.19017226,20.42222369,92.05,"rural, 92.0 km from Łódź",medium
+2800037,Końskie - przy stacji PKP,51.19017226,20.42222369,92.05,"rural, 92.0 km from Łódź",medium
+49502,Końskie,51.189255,20.423415,92.18,"rural, 92.2 km from Łódź",medium
+48801,Przysucha,51.377701,20.659469,93.31,"rural, 93.3 km from Łódź",medium
+63131,Mykanów,50.92552807,19.17931414,94.69,"rural, 94.7 km from Łódź",medium
+45245,Kalisz,51.74281861,18.07125528,95.41,"rural, 95.4 km from Łódź",medium
+49072,Skrzynno,51.36518,20.722074,97.81,"rural, 97.8 km from Łódź",medium
+49551,Wąsosz Konecki,51.144513,20.47881,98.41,"rural, 98.4 km from Łódź",medium
+2800036,Wąsosz Konecki - przystanek autobusowy Wąsosz Przymiarki (0455/03 w dwóch kierunkach),51.13811666,20.4732235,98.64,"rural, 98.6 km from Łódź",medium
+2800018,Wąsosz Konecki - przystanek autobusowy Wąsosz Przymiarki (0455/03 w dwóch kierunkach),51.13803826,20.47349021,98.66,"rural, 98.7 km from Łódź",medium
+63123,Rząsawa,50.88408878,19.17680268,99.24,"rural, 99.2 km from Łódź",medium
+49577,Czarniecka Góra,51.143691,20.519171,100.51,"rural, 100.5 km from Łódź",medium
+2800035,Czarniecka Góra - przy przystanku osobowym PKP,51.14361363,20.51933603,100.52,"rural, 100.5 km from Łódź",medium
+2800019,Czarniecka Góra - przy przystanku osobowym PKP,51.1436557,20.51959888,100.53,"rural, 100.5 km from Łódź",medium
+45203,Nowe Skalmierzyce,51.70889028,17.99822583,100.61,"rural, 100.6 km from Łódź",medium
+49049,Wieniawa,51.363425,20.790527,102.15,"rural, 102.1 km from Łódź",medium
+2800034,Stąporków - przystanek autobusowy ul. Niekłańska (obok stacji w dwóch kierunkach),51.14431165,20.57565596,103.36,"rural, 103.4 km from Łódź",medium
+2800020,Stąporków - przystanek autobusowy ul. Niekłańska (obok stacji w dwóch kierunkach),51.14419555,20.57561305,103.37,"rural, 103.4 km from Łódź",medium
+49544,Stąporków,51.143093,20.576786,103.51,"rural, 103.5 km from Łódź",medium
+63099,Częstochowa Aniołów,50.83535198,19.15171263,104.9,"rural, 104.9 km from Łódź",medium
+2800021,Wólka Plebańska - przy przystanku osobowym PKP ,51.15297532,20.63108658,105.65,"rural, 105.6 km from Łódź",medium
+2800033,Wólka Plebańska - przy przystanku osobowym PKP ,51.15299736,20.63127594,105.66,"rural, 105.7 km from Łódź",medium
+49619,Wólka Plebańska,51.153369,20.632291,105.69,"rural, 105.7 km from Łódź",medium
+62653,Częstochowa,50.80867845,19.12126329,108.25,"rural, 108.2 km from Łódź",medium
+2800032,Sołtyków - przystanek autobusowy (droga 42 /01 i 02 bloki),51.13630352,20.6860489,109.78,"rural, 109.8 km from Łódź",medium
+2800022,Sołtyków - przystanek autobusowy (droga 42 /01 i 02 bloki),51.13596451,20.68761131,109.89,"rural, 109.9 km from Łódź",medium
+49585,Sołtyków,51.137577,20.691649,109.99,"rural, 110.0 km from Łódź",medium
+49056,Chronów,51.358136,20.930099,111.17,"rural, 111.2 km from Łódź",medium
+48298,Gilów,51.119657,20.729496,113.3,"rural, 113.3 km from Łódź",medium
+2800031,Gilów - przystanek autobusowy (droga 42 /01 i 02) ,51.11708616,20.73425611,113.74,"rural, 113.7 km from Łódź",medium
+2800023,Gilów - przystanek autobusowy (droga 42 /01 i 02) ,51.11632394,20.73595394,113.88,"rural, 113.9 km from Łódź",medium
+45906,Ostrów Wielkopolski,51.64929667,17.80515667,114.48,"rural, 114.5 km from Łódź",medium
+33506,Warszawa Zachodnia,52.220208,20.965145,115.29,"rural, 115.3 km from Łódź",medium
+48272,Bliżyn,51.110534,20.756854,115.42,"rural, 115.4 km from Łódź",medium
+2900001,Wolanów - przy stacji PKP,51.35304668,20.99829245,115.73,"rural, 115.7 km from Łódź",medium
+48454,Wolanów,51.353182,21.00021,115.85,"rural, 115.8 km from Łódź",medium
+2800030,Bliżyn - przystanek autobusowy ul. Kościuszki (droga 42/ 06 i 07 kościół),51.10746196,20.76075884,115.85,"rural, 115.8 km from Łódź",medium
+44842,Pleszew,51.89125,17.78357,115.94,"rural, 115.9 km from Łódź",medium
+2800024,Bliżyn - przystanek autobusowy ul. Kościuszki (droga 42/ 06 i 07 kościół),51.10694986,20.76241759,115.97,"rural, 116.0 km from Łódź",medium
+33472,Warszawa Główna,52.22515,20.98227,116.58,"rural, 116.6 km from Łódź",medium
+33605,Warszawa Centralna,52.228697,21.002728,118.0,"rural, 118.0 km from Łódź",medium
+33571,Warszawa Śródmieście,52.229413,21.00762,118.34,"rural, 118.3 km from Łódź",medium
+2900002,"Kończyce Radomskie - przystanek w ciągu DW 733, obok skrzyżowania z ul. Kościelną",51.34899538,21.03677743,118.36,"rural, 118.4 km from Łódź",medium
+2900004,"Kończyce Radomskie - przystanek w ciągu DW 733, obok skrzyżowania z ul. Kościelną",51.34903894,21.0368579,118.37,"rural, 118.4 km from Łódź",medium
+63776,Tumlin,50.96759146,20.60219322,118.62,"rural, 118.6 km from Łódź",medium
+48306,Brzask,51.097231,20.803035,118.86,"rural, 118.9 km from Łódź",medium
+36103,Warszawa Gdańska,52.259135,20.992476,118.89,"rural, 118.9 km from Łódź",medium
+48470,Kończyce Radomskie,51.349119,21.045301,118.9,"rural, 118.9 km from Łódź",medium
+279430,Kosów,51.346861,21.066278,120.34,"rural, 120.3 km from Łódź",medium
+48314,Skarżysko Milica,51.108153,20.850733,120.73,"rural, 120.7 km from Łódź",medium
+2800026,Skarżysko Milica - przystanek autobusowy ul. Legionów/ ul. Metalowców 04 w kier. Skarżyska-K. oraz M,51.10653789,20.85108415,120.86,"rural, 120.9 km from Łódź",medium
+2800028,Skarżysko Milica - przystanek autobusowy ul. Legionów/ ul. Metalowców 04 w kier. Skarżyska-K. oraz M,51.10692872,20.85176183,120.87,"rural, 120.9 km from Łódź",medium
+63701,Zagnańsk,50.97430519,20.6647726,121.03,"rural, 121.0 km from Łódź",medium
+33647,Warszawa Stadion,52.244848,21.043959,121.31,"rural, 121.3 km from Łódź",medium
+48058,Skarżysko Zachodnie,51.10056546,20.85964858,121.73,"rural, 121.7 km from Łódź",medium
+2800027,"Skarżysko-Kamienna - przystanek autobusowy (zatoka autobusowa przy stacji PKP, Aleja Niepodległości)",51.11606035,20.87982834,121.82,"rural, 121.8 km from Łódź",medium
+48009,Skarżysko-Kamienna,51.115961,20.881308,121.91,"rural, 121.9 km from Łódź",medium
+38653,Warszawa Wschodnia,52.251373,21.052366,122.14,"rural, 122.1 km from Łódź",medium
+48462,Radom Potkanów,51.353001,21.102137,122.38,"rural, 122.4 km from Łódź",medium
+63784,Kostomłoty,50.92153864,20.61571732,123.1,"rural, 123.1 km from Łódź",medium
+48249,Suchedniów Północny,51.06547414,20.84910863,123.58,"rural, 123.6 km from Łódź",medium
+2900003,Radom Główny - przystanek MZKDiK Dw. Główny/Poczta 02,51.39215442,21.15591686,124.29,"rural, 124.3 km from Łódź",medium
+48355,Radom Główny,51.391262,21.156468,124.36,"rural, 124.4 km from Łódź",medium
+48231,Suchedniów,51.04649704,20.8497789,124.96,"rural, 125.0 km from Łódź",medium
+48264,Berezów,51.02385691,20.83635261,125.88,"rural, 125.9 km from Łódź",medium
+63529,Kielce Piaski,50.88961466,20.62525995,126.25,"rural, 126.3 km from Łódź",medium
+63735,Łączna,50.99169335,20.79865251,126.31,"rural, 126.3 km from Łódź",medium
+63552,Kielce Główne,50.87440093,20.61803746,127.24,"rural, 127.2 km from Łódź",medium
+44701,Jarocin,51.96898,17.49466,136.75,"rural, 136.7 km from Łódź",medium
+30205,Środa Wielkopolska,52.21806,17.27535,157.85,"rural, 157.9 km from Łódź",medium
+28563,Poznań Krzesiny,52.341643,16.975516,181.61,"rural, 181.6 km from Łódź",medium
+28522,Poznań Starołęka,52.366345,16.934406,185.18,"rural, 185.2 km from Łódź",medium
+28555,Poznań Dębina,52.373851,16.909744,187.04,"rural, 187.0 km from Łódź",medium
+30601,Poznań Główny,52.40292,16.91274,188.0,"rural, 188.0 km from Łódź",medium
+1300011,Jordanów OSP kier. Wola Rakowa,51.75883656,19.67663622,15.12,"nearby countryside, 15.1 km from Łódź",low-medium
+11100001,Rydzynki Wczasowa/Komarowa,51.62253513,19.46110691,15.2,"nearby countryside, 15.2 km from Łódź",low-medium
+1200048,Bukowiec Rokicińska/Chryzantem kier. Bedoń,51.70321989,19.65884382,15.23,"nearby countryside, 15.2 km from Łódź",low-medium
+280343,Jedlicze koło Zgierza,51.868861,19.321528,15.34,"nearby countryside, 15.3 km from Łódź",low-medium
+1200049,Bukowiec Rokicińska/Chryzantem kier. Wola Rakowa,51.70139361,19.6599945,15.39,"nearby countryside, 15.4 km from Łódź",low-medium
+1200004,Wola Rakowa Nowiny kier. Bedoń,51.65876975,19.61497084,15.6,"nearby countryside, 15.6 km from Łódź",low-medium
+1200042,Wola Rakowa Nowiny kier. Główna,51.65832181,19.61487085,15.63,"nearby countryside, 15.6 km from Łódź",low-medium
+1200005,Pałczew Kapliczka kier. Bedoń,51.65505913,19.61337704,15.82,"nearby countryside, 15.8 km from Łódź",low-medium
+1200041,Pałczew Kapliczka kier. Wola Rakowa,51.65470468,19.61381111,15.87,"nearby countryside, 15.9 km from Łódź",low-medium
+11100049,Rydzynki Komarowa/Sadowa kier. Wczasowa,51.61646111,19.46560519,15.89,"nearby countryside, 15.9 km from Łódź",low-medium
+11100002,Rydzynki Komarowa/Sadowa kier. Będków,51.61631109,19.46571002,15.91,"nearby countryside, 15.9 km from Łódź",low-medium
+46524,Justynów,51.730676,19.684264,15.97,"nearby countryside, 16.0 km from Łódź",low-medium
+1300010,Adamów kier. Wola Rakowa,51.77131377,19.69041522,16.12,"nearby countryside, 16.1 km from Łódź",low-medium
+11100009,Tuszyn Sienkiewicza/Słowackiego kier. Będków,51.61867617,19.51437033,16.12,"nearby countryside, 16.1 km from Łódź",low-medium
+11100042,Tuszyn Sienkiewicza/Słowackiego kier. Rydzynki,51.61840329,19.51478406,16.16,"nearby countryside, 16.2 km from Łódź",low-medium
+1200047,Bukowiec Rokicińska/Górna kier. Bedoń,51.69204436,19.66693262,16.28,"nearby countryside, 16.3 km from Łódź",low-medium
+1200035,Bukowiec Rokicińska/Górna kier. Wola Rakowa,51.6910951,19.66737414,16.35,"nearby countryside, 16.4 km from Łódź",low-medium
+1300009,Małczew Kapliczka kier. Wola Rakowa,51.77510096,19.69524562,16.49,"nearby countryside, 16.5 km from Łódź",low-medium
+11100010,Tuszyn 3-go Maja/Prusa kier. Będków,51.61519562,19.51648078,16.53,"nearby countryside, 16.5 km from Łódź",low-medium
+11100041,Tuszyn 3-go Maja/Prusa kier. Rydzynki,51.61512976,19.51631013,16.54,"nearby countryside, 16.5 km from Łódź",low-medium
+11100011,Tuszyn MOPS kier. Będków,51.61230791,19.50989261,16.74,"nearby countryside, 16.7 km from Łódź",low-medium
+11100040,Tuszyn MOPS kier. Rydzynki,51.61234607,19.51002929,16.74,"nearby countryside, 16.7 km from Łódź",low-medium
+11100047,Zofiówka Główna/Wesoła kier. Rydzynki,51.60867983,19.46335013,16.75,"nearby countryside, 16.7 km from Łódź",low-medium
+1200006,Wardzyn kier. Bedoń,51.6531251,19.62970014,16.76,"nearby countryside, 16.8 km from Łódź",low-medium
+1200040,Wardzyn kier. Wola Rakowa,51.65315526,19.62976135,16.76,"nearby countryside, 16.8 km from Łódź",low-medium
+11100004,Zofiówka Główna/Wesoła kier. Będków,51.60860287,19.46312604,16.76,"nearby countryside, 16.8 km from Łódź",low-medium
+11100039,Tuszyn Poniatowskiego Szkoła kier. Rydzynki,51.61187298,19.51421521,16.86,"nearby countryside, 16.9 km from Łódź",low-medium
+11100012,Tuszyn Poniatowskiego Szkoła kier. Będków,51.6116904,19.51363418,16.87,"nearby countryside, 16.9 km from Łódź",low-medium
+1200007,Brójce kier. Bedoń,51.66325372,19.64918978,17.01,"nearby countryside, 17.0 km from Łódź",low-medium
+1200039,Brójce kier. Wola Rakowa,51.66318634,19.64909255,17.01,"nearby countryside, 17.0 km from Łódź",low-medium
+1300008,Małczew Świetlica kier. Wola Rakowa,51.77827585,19.70396149,17.12,"nearby countryside, 17.1 km from Łódź",low-medium
+11100005,Zofiówka Główna/Stanisławowska kier. Będków,51.60561052,19.47603487,17.13,"nearby countryside, 17.1 km from Łódź",low-medium
+11100046,Zofiówka Główna/Stanisławowska kier. Rydzynki,51.60555063,19.47646642,17.14,"nearby countryside, 17.1 km from Łódź",low-medium
+1200011,Bukowiec Zielonogórska kier. Bedoń,51.68241889,19.67382341,17.21,"nearby countryside, 17.2 km from Łódź",low-medium
+11100013,Tuszyn Domowicza/Karłowicza kier. Będków,51.60977513,19.52210185,17.22,"nearby countryside, 17.2 km from Łódź",low-medium
+11100038,Tuszyn Domowicza/Karłowicza kier. Rydzynki,51.60977761,19.52224539,17.22,"nearby countryside, 17.2 km from Łódź",low-medium
+46920,Swędów,51.905579,19.539795,17.24,"nearby countryside, 17.2 km from Łódź",low-medium
+1200036,Bukowiec Zielonogórska kier. Wola Rakowa,51.68162186,19.67424803,17.28,"nearby countryside, 17.3 km from Łódź",low-medium
+46615,Chechło,51.64494,19.286506,17.31,"nearby countryside, 17.3 km from Łódź",low-medium
+11100045,Zofiówka Główna/Sporna kier. Rydzynki,51.60337929,19.48289655,17.42,"nearby countryside, 17.4 km from Łódź",low-medium
+46839,Grotniki,51.887405,19.311054,17.43,"nearby countryside, 17.4 km from Łódź",low-medium
+11100006,Zofiówka Główna/Sporna kier. Będków,51.60331292,19.48284711,17.43,"nearby countryside, 17.4 km from Łódź",low-medium
+1200046,Wardzyn OSP kier. Bedoń,51.65013828,19.64427361,17.71,"nearby countryside, 17.7 km from Łódź",low-medium
+1200051,Wardzyn OSP kier. Wola Rakowa,51.65013828,19.64427361,17.71,"nearby countryside, 17.7 km from Łódź",low-medium
+1300007,Małczew 8 kier. Wola Rakowa,51.78245996,19.7122115,17.75,"nearby countryside, 17.7 km from Łódź",low-medium
+11100007,Tuszyn Poddębina Szpital kier. Będków,51.60141199,19.50274117,17.83,"nearby countryside, 17.8 km from Łódź",low-medium
+11100044,Tuszyn Poddębina Szpital kier. Rydzynki,51.60142549,19.50269775,17.83,"nearby countryside, 17.8 km from Łódź",low-medium
+1200010,Kurowice Juny kier. Bedoń,51.67612763,19.6785633,17.84,"nearby countryside, 17.8 km from Łódź",low-medium
+11100037,Tuszyn Rzgowska CPN kier. Rydzynki,51.60616648,19.53435939,17.84,"nearby countryside, 17.8 km from Łódź",low-medium
+11100014,Tuszyn Rzgowska CPN kier. Będków,51.60586135,19.53573672,17.9,"nearby countryside, 17.9 km from Łódź",low-medium
+1200037,Kurowice Juny kier. Wola Rakowa,51.67542421,19.67901966,17.91,"nearby countryside, 17.9 km from Łódź",low-medium
+11100036,Tuszyn Chmielna kier. Rydzynki,51.6043032,19.54289052,18.22,"nearby countryside, 18.2 km from Łódź",low-medium
+11100015,Tuszyn Chmielna kier. Będków,51.6041575,19.54283704,18.23,"nearby countryside, 18.2 km from Łódź",low-medium
+11100035,Tuszyn Żeromskiego Szkoła kier. Rydzynki,51.60217989,19.55075558,18.62,"nearby countryside, 18.6 km from Łódź",low-medium
+11100016,Tuszyn Żeromskiego Szkoła kier. Będków,51.60211326,19.55100311,18.64,"nearby countryside, 18.6 km from Łódź",low-medium
+11000036,Gałków Duży Dworcowa/Dzieci Polskich kier. Łaznów,51.72981504,19.7239854,18.67,"nearby countryside, 18.7 km from Łódź",low-medium
+11000034,Gałków Duży Dworcowa/Dzieci Polskich kier. Gałkówe,51.72977351,19.72405447,18.68,"nearby countryside, 18.7 km from Łódź",low-medium
+11000032,Gałków Mały Łódzka/Zacisze kier. Gałkówek Dworzec ,51.72443178,19.72260722,18.69,"nearby countryside, 18.7 km from Łódź",low-medium
+11000038,Gałków Mały Łódzka/Zacisze kier. Łaznów,51.72434911,19.72310909,18.73,"nearby countryside, 18.7 km from Łódź",low-medium
+1200038,Kurowice Pabianicka kier. Wola Rakowa,51.66459785,19.68303788,18.8,"nearby countryside, 18.8 km from Łódź",low-medium
+1200008,Kurowice Pabianicka kier. Bedoń,51.66454189,19.68447687,18.88,"nearby countryside, 18.9 km from Łódź",low-medium
+1200009,"Kurowice Centrum kier, Bedoń",51.66575829,19.68775155,19.0,"nearby countryside, 19.0 km from Łódź",low-medium
+46516,Gałkówek,51.729707,19.730361,19.1,"nearby countryside, 19.1 km from Łódź",low-medium
+11000035,Gałkówek Dworzec PKP,51.72996383,19.73067753,19.12,"nearby countryside, 19.1 km from Łódź",low-medium
+11000031,Gałków Mały Łódzka/Długa kier. Gałkówek Dworzec PK,51.72366746,19.72985018,19.2,"nearby countryside, 19.2 km from Łódź",low-medium
+11000015,Gałków Mały Dworzec PKP,51.729528,19.732028,19.22,"nearby countryside, 19.2 km from Łódź",low-medium
+2300010,Stryków przy stacji PKP (ul. Batorego),51.91027018,19.59432195,19.26,"nearby countryside, 19.3 km from Łódź",low-medium
+2300021,Stryków przy stacji PKP (ul. Batorego),51.91027762,19.59433,19.26,"nearby countryside, 19.3 km from Łódź",low-medium
+46847,Stryków,51.910706,19.594167,19.3,"nearby countryside, 19.3 km from Łódź",low-medium
+2300011,"Stryków Firma LEK S.A. - ul. Podlipie 16,  Stryków",51.9112437,19.59582621,19.41,"nearby countryside, 19.4 km from Łódź",low-medium
+11100017,Żeromin Tuszyńska/Ogrodzonka kier. Będków,51.60282917,19.5840471,19.47,"nearby countryside, 19.5 km from Łódź",low-medium
+11100034,Żeromin Tuszyńska/Ogrodzonka kier. Rydzynki,51.60278712,19.58370069,19.47,"nearby countryside, 19.5 km from Łódź",low-medium
+11000023,Karpin pos. 39 kier. Łaznów,51.675278,19.710694,19.81,"nearby countryside, 19.8 km from Łódź",low-medium
+11000008,Karpin pos. 39 kier. Gałkówek Dworzec PKP,51.67525,19.710778,19.82,"nearby countryside, 19.8 km from Łódź",low-medium
+11100033,Żeromin Bloki kier. Rydzynki,51.60395433,19.59988122,19.88,"nearby countryside, 19.9 km from Łódź",low-medium
+11100018,Żeromin Bloki kier. Będków,51.60391216,19.60014823,19.89,"nearby countryside, 19.9 km from Łódź",low-medium
+11000007,Karpin OSP kier. Gałkówek Dworzec PKP,51.669861,19.711472,20.15,"nearby countryside, 20.2 km from Łódź",low-medium
+11000024,Karpin OSP kier. Łaznów,51.669889,19.711389,20.15,"nearby countryside, 20.1 km from Łódź",low-medium
+178637,Dobroń,51.629939,19.242599,20.62,"nearby countryside, 20.6 km from Łódź",low-medium
+11100032,Żeromin Tuszyńska 77 kier. Rydzynki,51.60239298,19.6219302,20.82,"nearby countryside, 20.8 km from Łódź",low-medium
+11100019,Żeromin Tuszyńska 77 kier. Będków,51.60234821,19.62193903,20.83,"nearby countryside, 20.8 km from Łódź",low-medium
+11100031,Rzepki kier. Rydzynki,51.60159527,19.63470961,21.39,"nearby countryside, 21.4 km from Łódź",low-medium
+11100020,Rzepki kier. Będków,51.6015295,19.63564793,21.43,"nearby countryside, 21.4 km from Łódź",low-medium
+11000006,Łaznowska Wola kier. Gałkówek Dworzec PKP,51.668361,19.741277,22.04,"nearby countryside, 22.0 km from Łódź",low-medium
+11100030,Tychów kier. Rydzynki,51.60031821,19.64843945,22.06,"nearby countryside, 22.1 km from Łódź",low-medium
+11100021,Tychów kier. Będków,51.600273,19.64953042,22.11,"nearby countryside, 22.1 km from Łódź",low-medium
+11000025,Łaznowska Wola kier. Łaznów,51.667945,19.744277,22.24,"nearby countryside, 22.2 km from Łódź",low-medium
+32557,Chociszew,51.924062,19.267104,22.5,"nearby countryside, 22.5 km from Łódź",low-medium
+47282,Żakowice Południowe,51.729496,19.790502,23.2,"nearby countryside, 23.2 km from Łódź",low-medium
+46532,Żakowice,51.732267,19.79159,23.23,"nearby countryside, 23.2 km from Łódź",low-medium
+1500015,Żakowice Piotrkowska kier. Będzelin,51.736469,19.793039,23.27,"nearby countryside, 23.3 km from Łódź",low-medium
+1500020,Żakowice Piotrkowska kier. Budziszewice,51.737289,19.793525,23.3,"nearby countryside, 23.3 km from Łódź",low-medium
+2300022,Bratoszewice przystanek autobusowy DK 14 (przy Zes,51.93177783,19.65108042,23.36,"nearby countryside, 23.4 km from Łódź",low-medium
+1500014,Żakowice Piotrkowska 40 kier. Będzelin,51.742416,19.796111,23.42,"nearby countryside, 23.4 km from Łódź",low-medium
+1500021,Żakowice Piotrkowska 40 kier. Budziszewice,51.742972,19.7965,23.44,"nearby countryside, 23.4 km from Łódź",low-medium
+2300009,Bratoszewice przystanek autobusowy DK 14 (przy Zes,51.93250167,19.65243635,23.48,"nearby countryside, 23.5 km from Łódź",low-medium
+11100029,Czarnocin Tuszyńska/Główna kier. Rydzynki,51.60081684,19.6826858,23.5,"nearby countryside, 23.5 km from Łódź",low-medium
+11100022,Czarnocin Tuszyńska/Główna kier. Będków,51.6007455,19.68269329,23.51,"nearby countryside, 23.5 km from Łódź",low-medium
+46854,Bratoszewice,51.938559,19.653246,24.07,"nearby countryside, 24.1 km from Łódź",low-medium
+1500033,Będzelin Szkoła kier. Będzelin,51.709694,19.7985,24.15,"nearby countryside, 24.2 km from Łódź",low-medium
+1500035,Będzelin Szkoła kier. Budziszewice,51.709722,19.798527,24.15,"nearby countryside, 24.2 km from Łódź",low-medium
+178639,Kolumna,51.614716,19.195258,24.16,"nearby countryside, 24.2 km from Łódź",low-medium
+1500017,Będzelin Szkolna kier. Będzelin,51.714361,19.800389,24.17,"nearby countryside, 24.2 km from Łódź",low-medium
+1500036,Będzelin Szkolna kier. Budziszewice,51.714889,19.80075,24.18,"nearby countryside, 24.2 km from Łódź",low-medium
+47415,Chrusty Nowe,51.695181,19.794486,24.31,"nearby countryside, 24.3 km from Łódź",low-medium
+11100023,Czarnocin Poniatowskiego/Główna kier. Będków,51.59118069,19.68320786,24.34,"nearby countryside, 24.3 km from Łódź",low-medium
+11100028,Czarnocin Poniatowskiego/Główna kier. Rydzynki,51.59123734,19.68387746,24.37,"nearby countryside, 24.4 km from Łódź",low-medium
+47423,Rokiciny,51.667176,19.780519,24.53,"nearby countryside, 24.5 km from Łódź",low-medium
+1700001,Rokiciny Dworzec PKP,51.667417,19.781175,24.56,"nearby countryside, 24.6 km from Łódź",low-medium
+11000004,Rokiciny Dworzec PKP kier. Gałkówek Dworzec PKP,51.667417,19.781175,24.56,"nearby countryside, 24.6 km from Łódź",low-medium
+11000027,Rokiciny Dworzec PKP kier. Łaznów,51.667417,19.781175,24.56,"nearby countryside, 24.6 km from Łódź",low-medium
+2200001,Koluszki - przystanek autobusowy ul. 3-go Maja,51.74408788,19.81765818,24.88,"nearby countryside, 24.9 km from Łódź",low-medium
+1500011,Koluszki Dworzec PKP kier. Będzelin,51.744102,19.817723,24.89,"nearby countryside, 24.9 km from Łódź",low-medium
+1500024,Koluszki Dworzec PKP kier. Budziszewice,51.744102,19.817723,24.89,"nearby countryside, 24.9 km from Łódź",low-medium
+1600034,Ozorków Sikorskiego kier. Leźnica Wlk (Osiedle),51.954322,19.27762,24.95,"nearby countryside, 24.9 km from Łódź",low-medium
+47431,Łaznów,51.631279,19.754955,24.98,"nearby countryside, 25.0 km from Łódź",low-medium
+1600009,Ozorków Bema kier. Ozorków PKP,51.956311,19.282484,24.98,"nearby countryside, 25.0 km from Łódź",low-medium
+1600032,Ozorków Bema kier. Leźnica Wlk (Osiedle),51.956311,19.282484,24.98,"nearby countryside, 25.0 km from Łódź",low-medium
+1600007,Ozorków Sikorskiego kier. Ozorków PKP,51.954436,19.276442,25.0,"nearby countryside, 25.0 km from Łódź",low-medium

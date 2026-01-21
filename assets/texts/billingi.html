@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Billing SMS</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', monospace;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  border: 2px solid #333;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.header {
+  background: #000;
+  color: #0f0;
+  padding: 15px;
+  border-bottom: 3px solid #0f0;
+}
+
+.header h1 {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.header-info {
+  font-size: 0.85rem;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.watermark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  font-size: 6rem;
+  color: rgba(255, 0, 0, 0.08);
+  font-weight: bold;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.meta {
+  background: #e0e0e0;
+  padding: 15px;
+  border-bottom: 2px solid #999;
+  font-size: 0.85rem;
+}
+
+.meta-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.meta-label {
+  font-weight: bold;
+}
+
+.table-container {
+  position: relative;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  position: relative;
+  z-index: 2;
+}
+
+thead {
+  background: #333;
+  color: white;
+}
+
+th {
+  padding: 10px 8px;
+  text-align: left;
+  font-weight: bold;
+  border-right: 1px solid #555;
+}
+
+th:last-child {
+  border-right: none;
+}
+
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #eee;
+}
+
+td:last-child {
+  border-right: none;
+}
+
+tbody tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+tbody tr:hover {
+  background: #fffacd;
+}
+
+.direction-out {
+  color: #c00;
+  font-weight: bold;
+}
+
+.direction-in {
+  color: #00c;
+  font-weight: bold;
+}
+
+.sms-content {
+  font-style: italic;
+  color: #333;
+  max-width: 300px;
+  word-wrap: break-word;
+}
+
+.footer {
+  background: #e0e0e0;
+  padding: 15px;
+  border-top: 2px solid #999;
+  font-size: 0.75rem;
+  text-align: center;
+  color: #666;
+}
+
+.classification {
+  background: #ff0000;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 3px;
+}
+
+.highlight {
+  background: #ffff00;
+  padding: 2px 4px;
+}
+
+@media print {
+  .watermark {
+    color: rgba(255, 0, 0, 0.15);
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+  <div class="header">
+    <h1>TELEKOMUNIKACJA POLSKA S.A.</h1>
+    <h2 style="font-size: 1rem; margin-top: 5px;">SZCZEGÓŁOWY WYKAZ POŁĄCZEŃ SMS</h2>
+    <div class="header-info">
+      <div>Zestawienie sporządzone na wniosek: KWP w Łodzi</div>
+      <div>Numer sprawy: KWP/98/772/AD</div>
+      <div>Data sporządzenia: 11.10.1998</div>
+    </div>
+  </div>
+
+  <div class="meta">
+    <div class="meta-row">
+      <span class="meta-label">Numer abonenta A:</span>
+      <span>0601-447-892 (NOWAK MAREK)</span>
+    </div>
+    <div class="meta-row">
+      <span class="meta-label">Numer abonenta B:</span>
+      <span>0602-138-745 (SKOWRONSKI JANUSZ)</span>
+    </div>
+    <div class="meta-row">
+      <span class="meta-label">Okres rozliczeniowy:</span>
+      <span>01.08.1998 - 1.10.1998</span>
+    </div>
+    <div class="meta-row">
+      <span class="meta-label">Całkowita liczba SMS:</span>
+      <span class="highlight">15 wiadomości</span>
+    </div>
+  </div>
+
+  <div class="table-container">
+    <div class="watermark">DOWÓD</div>
+    
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 5%;">LP</th>
+          <th style="width: 12%;">Data</th>
+          <th style="width: 8%;">Godzina</th>
+          <th style="width: 12%;">Od</th>
+          <th style="width: 12%;">Do</th>
+          <th style="width: 8%;">Kierunek</th>
+          <th style="width: 43%;">Treść SMS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>02.08.1998</td>
+          <td>19:47</td>
+          <td>0602-138-745</td>
+          <td>0601-447-892</td>
+          <td class="direction-out">WYCHODZ.</td>
+          <td class="sms-content">Jest problem. Ten dziennikarz. zadzwon pilnie.</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>02.08.1998</td>
+          <td>20:12</td>
+          <td>0601-447-892</td>
+          <td>0602-138-745</td>
+          <td class="direction-in">PRZYCHODZ.</td>
+          <td class="sms-content">jutro 8 rano. parking za miastem. Wiesz gdzie.</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>15.08.1998</td>
+          <td>11:23</td>
+          <td>0602-138-745</td>
+          <td>0601-447-892</td>
+          <td class="direction-out">WYCHODZ.</td>
+          <td class="sms-content">nie odpusci, ciagle wypytuje i drazy. smrod sie robi</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>15.08.1998</td>
+          <td>14:56</td>
+          <td>0601-447-892</td>
+          <td>0602-138-745</td>
+          <td class="direction-in">PRZYCHODZ.</td>
+          <td class="sms-content">Dobra cos wymysle jak chuj nie chce po dobroci</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>20.08.1998</td>
+          <td>16:32</td>
+          <td>0601-447-892</td>
+          <td>0602-138-745</td>
+          <td class="direction-in">PRZYCHODZ.</td>
+          <td class="sms-content">sluchaj umow go do firmy, niby na wywiad czy cos. mam pomysl</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>20.08.1998</td>
+          <td>21:45</td>
+          <td>0602-138-745</td>
+          <td>0601-447-892</td>
+          <td class="direction-out">WYCHODZ.</td>
+          <td class="sms-content">dobra, trzeba to zalatwic przynajmniej do wyborow. jeszcze jakis policjant z wojewodzkiej sie tu kreci po piotrkowie, wiesz cos?</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>01.09.1998</td>
+          <td>09:18</td>
+          <td>0601-447-892</td>
+          <td>0602-138-745</td>
+          <td class="direction-in">PRZYCHODZ.</td>
+          <td class="sms-content">no i jak? a tym z wojewodzkiej narazie sie nie martw, nie dam mu zadnego dostepu do akt</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>01.09.1998</td>
+          <td>09:50</td>
+          <td>0602-138-745</td>
+          <td>0601-447-892</td>
+          <td class="direction-out">WYCHODZ.</td>
+          <td class="sms-content">zalatwione, szostego przyjedzie robic wywiad. wez tego milewskiego odwolaj czy cos, po chuj tu przyjechal z wojewodkziej</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>10.09.1998</td>
+          <td>07:41</td>
+          <td>0601-447-892</td>
+          <td>0602-138-745</td>
+          <td class="direction-in">PRZYCHODZ.</td>
+          <td class="sms-content">rodzina zglosila zaginiecie ale nie panikuj. wszystko mam pod kontrola. po wyborach go wypuscimy. a milewski jakas prywate odpierdala, w kwp nic nie wiedza. moze jakis kolega w.</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>10.09.1998</td>
+          <td>18:27</td>
+          <td>0602-138-745</td>
+          <td>0601-447-892</td>
+          <td class="direction-out">WYCHODZ.</td>
+          <td class="sms-content">kurwa zebys mnie nie pograzyl bo nawet partia mi nie pomoze jak to wyjdzie. trzeba chuja uciszyc i spokoj bedzie, najlepiej obu</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>10.09.1998</td>
+          <td>19:52</td>
+          <td>0601-447-892</td>
+          <td>0602-138-745</td>
+          <td class="direction-in">PRZYCHODZ.</td>
+          <td class="sms-content">jest problem, ten ciec kaczmarek chyba widzial cos.  </td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>10.09.1998</td>
+          <td>23:14</td>
+          <td>0602-138-745</td>
+          <td>0601-447-892</td>
+          <td class="direction-out">WYCHODZ.</td>
+          <td class="sms-content">zostaw to mnie</td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>20.09.1998</td>
+          <td>15:47</td>
+          <td>0601-447-892</td>
+          <td>0602-138-745</td>
+          <td class="direction-out">PRZYCHODZ.</td>
+          <td class="sms-content">kurwa cos ty odjebal, dobrze ze on zadnej rodziny nie mial. umorze to i nikt nie bedzie pytal ale masz u mnie dlug</td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td>31.09.1998</td>
+          <td>21:35</td>
+          <td>0602-138-745</td>
+          <td>0601-447-892</td>
+          <td class="direction-in">WYCHODZ.</td>
+          <td class="sms-content">sluchaj mam dobra wiadomosc wypadki chodza po ludziach :)  </td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>01.10.1998</td>
+          <td>10:22</td>
+          <td>0602-138-745</td>
+          <td>0601-447-892</td>
+          <td class="direction-out">WYCHODZ.</td>
+          <td class="sms-content">ksiazkowy wypadek, szybko zamkniesz sprawe i mamy wszystko pod kontrola. wiecej nie musisz wiedziec</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="footer">
+    <p><strong>TELEKOMUNIKACJA POLSKA S.A.</strong></p>
+    <p>Dokument sporządzony automatycznie przez system rozliczeniowy</p>
+    <p>Uwierzytelnienie: TP-1998-03-BILL-447892-138745</p>
+    <p style="margin-top: 10px; color: #c00; font-weight: bold;">
+      ⚠ Dokument objęty tajemnicą telekomunikacyjną - Art. 159 k.k.
+    </p>
+  </div>
+
+ 
+</div>
+
+</body>
+</html>

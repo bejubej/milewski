@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>signal</title>
+
+  <style>
+      html, body {
+          margin: 0;
+          padding: 0;
+          height: 100%;
+          background: #000;
+          font-family: "Courier New", monospace;
+          color: #e0e0e0;
+          overflow: hidden;
+      }
+
+      /* Efekt Ziarna (Grain) */
+      body::before {
+          content: "";
+          position: fixed;
+          top: 0; left: 0;
+          width: 100%; height: 100%;
+          opacity: 0.06;
+          pointer-events: none;
+          z-index: 10;
+          background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+      }
+
+      body {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+
+      /* Światło latarni */
+      .light {
+          position: relative;
+          padding: 60px;
+          text-align: center;
+          background: radial-gradient(
+                  ellipse at top,
+                  rgba(255,255,255,0.12) 0%,
+                  rgba(255,255,255,0.05) 40%,
+                  rgba(0,0,0,0.95) 80%
+          );
+          animation: flicker 6s infinite;
+      }
+
+      .message {
+          font-size: 18px;
+          line-height: 1.6;
+          text-shadow: 0 0 5px rgba(255,255,255,0.2);
+          white-space: pre-line;
+          max-width: 600px;
+          min-height: 1.2em;
+      }
+
+      /* Mrugający kursor terminala */
+      .message::after {
+          content: "_";
+          animation: blink 1s step-end infinite;
+          margin-left: 2px;
+      }
+
+      @keyframes flicker {
+          0% { opacity: 1; }
+          97% { opacity: 1; }
+          98% { opacity: 0.8; }
+          99% { opacity: 1; }
+          100% { opacity: 0.95; }
+      }
+
+      @keyframes blink {
+          50% { opacity: 0; }
+      }
+  </style>
+</head>
+
+<body>
+
+<div class="light">
+  <div id="content" class="message"></div>
+</div>
+
+<script>
+  /* KONFIGURACJA */
+  const START_HOUR = 20;
+  const START_MINUTE = 0;
+  const WINDOW_MINUTES = 5;
+
+  const now = new Date();
+  const minutesNow = now.getHours() * 60 + now.getMinutes();
+  const start = START_HOUR * 60 + START_MINUTE;
+  const end = start + WINDOW_MINUTES;
+
+  const content = document.getElementById("content");
+
+  /* LOGIKA MASZYNY DO PISANIA */
+  function typeWriter(text, element, delay = 60) {
+    let i = 0;
+    element.textContent = "";
+    function type() {
+      if (i < text.length) {
+        element.textContent += text.charAt(i);
+        i++;
+        setTimeout(type, delay);
+      }
+    }
+    type();
+  }
+
+  /* WYBÓR TREŚCI */
+  let messageText = "";
+
+  if (minutesNow < start) {
+    messageText = "Informator jeszcze się nie pojawił. Jesteś za wcześnie.";
+  }
+  else if (minutesNow >= start && minutesNow <= end) {
+    messageText = "Mam ważne informacje, są na komputerze. wpisz hasło bubunio. nie znamy się i więcej mnie nie zobaczysz. narazie.";
+  }
+  else {
+    messageText = "Za późno. Informator już poszedł. Przyjdź jutro.";
+  }
+
+  // Start animacji
+  typeWriter(messageText, content, 50);
+
+</script>
+
+</body>
+</html>
