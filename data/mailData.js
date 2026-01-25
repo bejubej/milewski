@@ -90,7 +90,7 @@ Przesyłam obiecany tekst – proszę spojrzeć, czy wszystko się zgadza.
 Pozdrawiam serdecznie
 Tomasz Wolski
 
-zipeawitij  rijeG epriy izizahfu eavveajfug yivfez i iyjux j gipqm qajf kxcuw eav erupy khuqu iq muyavmugirt eagqax iv ijgkpuf bgkrupy eajfox jav zeaghkjq izireawo kmirtq geavyeat bgkvqixm ezovxat wiq krupy row iv jqadirp ivxiwrud icurf gqa jqezohurtq axqeZ`,
+zipeawitij eagqivkjrp rijeG epriy izizahfu eavveajfug yivfez i iyjux j gipqm qajf kxcuw eav erupy khuqu iq muyavmugirt eagqax iv ijgkpuf bgkrupy eajfox jav zeaghkjq izireawo kmirtq geavyeat bgkvqixm ezovxat wiq krupy row iv jqadirp ivxiwrud icurf gqa jqezohurtq axqeZ`,
     image: "assets/images/stopka.png",
     unread: false
   },
@@ -226,4 +226,5 @@ Biuro Obsługi Mieszkańca`,
     //image: "assets/images/1.jpg",
     unread: false
   }
+
 ];
