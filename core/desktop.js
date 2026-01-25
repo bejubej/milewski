@@ -115,6 +115,8 @@ export function initDesktop() {
   checkPuzzle6Unlock();
   //sprawdz zagadke 7
   checkPuzzle7Unlock();
+  //sprawdz zagadke 8
+  checkPuzzle8Unlock();
 
 }
 
@@ -283,3 +285,4 @@ window.addEventListener("storage", (e) => {
     checkPuzzle7Unlock();
   }
 });
+
