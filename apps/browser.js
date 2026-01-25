@@ -439,7 +439,7 @@ const PAGES = {
       
       <h3>🏠 Nieruchomości</h3>
       <ul>
-        <li><font size="2"><b>Kupię mieszkanie</b> ewentualnie zamiana z dopłatą. Minimum 60m2, centrum Piotrkowa. Jerzy Kaczmarczyk 44-643-2215 </font></li>
+        <li><font size="2"><b>Kupię mieszkanie</b> ewentualnie zamiana z dopłatą. Minimum 60m2, centrum Piotrkowa. Jerzy Kaczmarek 44-643-2215 </font></li>
         <li><font size="2"><b>Wynajmę kawalerkę</b> Centrum, 30m², 300 zł/mies. + opłaty licznikowe, Agata Kupisz Tel: 44-649-7162</font></li>
       </ul>
       
@@ -778,5 +778,6 @@ async function updateSidebarWeather(win) {
     descEl.textContent = "Brak danych";
   }
 }
+
 
 
