@@ -158,6 +158,8 @@ aieqyj uygink ieu ojg ieu iqnijy aecuzyvqycu in mezmctyxu aitucitivx jyx selyvj 
 function handleRunCommand(cmd) {
   if (cmd === "bubunio") {
     unlockRunFile();
+  } else if (cmd === "reset") {
+    resetGame();
   } else {
     alert("Nie można odnaleźć pliku lub polecenia.");
   }
@@ -184,6 +186,19 @@ function unlockRunFile() {
 
   refreshDesktop();
   alert("Na pulpicie pojawił się nowy plik.");
+}
+
+function resetGame() {
+  const confirmation = confirm("Czy chcesz zresetować grę?");
+
+  if (confirmation) {
+    //wyczysc localstorage
+    localStorage.clear();
+
+    //przeladuj strone
+    alert("Gra została zresetowana");
+    window.location.reload();
+  }
 }
 
 /* =========================
@@ -285,4 +300,5 @@ window.addEventListener("storage", (e) => {
     checkPuzzle7Unlock();
   }
 });
+
 
