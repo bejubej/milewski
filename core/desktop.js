@@ -299,6 +299,11 @@ window.addEventListener("storage", (e) => {
   if (e.key === "puzzle7Unlocked" && e.newValue === "true") {
     checkPuzzle7Unlock();
   }
+
+    if (e.key === "puzzle8Unlocked" && e.newValue === "true") {
+    checkPuzzle8Unlock();
+  }
 });
+
 
 
