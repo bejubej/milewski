@@ -144,6 +144,7 @@ const ARTICLES = [
     title: "Podsumowanie programu rządowego",
     date: "10.01.1998, 10:34",
     lead: "Podsumowanie programu dopłat dla przedsiębiorców zatrudniających osoby 70+",
+    file: "assets/articles/news20.html"
   },
   {
     id: "news19",
@@ -778,6 +779,7 @@ async function updateSidebarWeather(win) {
     descEl.textContent = "Brak danych";
   }
 }
+
 
 
 
